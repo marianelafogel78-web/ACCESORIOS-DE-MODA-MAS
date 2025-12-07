@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "COLLAR DE PERLAS CLÁSICO", "precio": 25.00, "foto": "https://placehold.co/300x200/D8BFD8/000?text=COLLAR", "categoria": "BIJUTERI" },
+  { "id": 2, "nombre": "ARETES DE PLATA MINIMALISTAS", "precio": 15.50, "foto": "https://placehold.co/300x200/E6E0F8/000?text=ARETES", "categoria": "BIJUTERI" },
+  { "id": 3, "nombre": "PAÑUELO ESTAMPADO FLORES", "precio": 30.00, "foto": "https://placehold.co/300x200/FFC0CB/000?text=PAÑUELO", "categoria": "ACCESORIOS DE MUJER" },
+  { "id": 4, "nombre": "CARTERA DE MANO ELEGANTE", "precio": 55.00, "foto": "https://placehold.co/300x200/D8BFD8/000?text=CARTERA", "categoria": "ACCESORIOS DE MUJER" },
+  { "id": 5, "nombre": "RELOJ DEPORTIVO ACERO", "precio": 80.99, "foto": "https://placehold.co/300x200/E6E0F8/000?text=RELOJ", "categoria": "ACCESORIOS DE HOMBRE" },
+  { "id": 6, "nombre": "BILLETERA DE CUERO MARRÓN", "precio": 45.99, "foto": "https://placehold.co/300x200/FFC0CB/000?text=BILLETERA", "categoria": "ACCESORIOS DE HOMBRE" }
+]
