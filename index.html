@@ -6,12 +6,12 @@
     <title>ACCESORIOS Y MODA - Tienda Online</title>
     
    <style>
-        /* PALETA FINAL: LILA Y CIRUELA con LILA INTENSO como ACENTO LLAMATIVO */ 
+        /* PALETA FINAL: LILA/ROSA con AZUL MARINO como ACENTO LLAMATIVO (COLORES CORREGIDOS) */ 
         :root {
             --color-fondo: #F8F8FF; /* BLANCO SUAVE (GhostWhite) */
             --color-primario: #E6E6FA; /* LAVANDA PÁLIDO (Fondo de tarjetas y pestañas) */
             --color-secundario: #DDA0DD; /* CIRUELA SUAVE (Bordes, fondos de ítems) */
-            --color-acento: #B57EDC; /* LILA INTENSO */ /* ARREGLO: SE AÑADIÓ EL PUNTO Y COMA */
+            --color-acento:#B57EDC; /* LILA */ /* <<-- ¡CORREGIDO EL PUNTO Y COMA! */
             --color-texto: #000000; /* NEGRO PURO */
             --color-borde: #A9A9A9; /* GRIS OSCURO SUAVE */
         }
@@ -70,12 +70,12 @@
         .producto-card h4 { margin: 5px 0; font-size: 1.1em; min-height: 40px; }
         .producto-card p.precio { font-weight: bold; color: var(--color-acento); font-size: 1.2em; margin: 10px 0; }
         .producto-card button {
-            background-color: var(--color-acento); /* CAMBIO: Usa el Azul Marino (Acento) */
-            color: white; /* CAMBIO: Texto blanco para contraste con el fondo oscuro */
+            background-color: var(--color-acento); /* Usa el color acento LILA */
+            color: white; /* Texto blanco para contraste con el fondo oscuro */
             border: none; padding: 8px 15px; border-radius: 4px;
             cursor: pointer; transition: background-color 0.2s;
         }
-        .producto-card button:hover { background-color: #9264B5; } /* CAMBIO: Lila más oscuro al pasar el mouse */
+        .producto-card button:hover { background-color: #9264B5; } /* Lila más oscuro al pasar el mouse */
 
         #lista-carrito { margin-bottom: 20px; border: 1px dashed var(--color-borde); padding: 10px; }
         .carrito-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px dotted var(--color-borde); }
@@ -102,7 +102,7 @@
         /* BOTONES GENERALES */
         #resumen-carrito button, #btn-login, #btn-guardar-producto, #btn-cancelar-edicion, .btn-admin-categoria, .btn-descargar-json {
             padding: 10px 20px; margin-right: 10px;
-            background-color: var(--color-acento); /* Azul Marino para botones principales */
+            background-color: var(--color-acento); /* Usa el color acento LILA */
             color: white;
             border: none; border-radius: 5px; cursor: pointer;
             font-weight: bold; text-transform: uppercase; transition: background-color 0.2s;
@@ -114,7 +114,7 @@
         .btn-admin-categoria { padding: 5px 10px; font-size: 0.8em; margin-right: 5px; }
         .btn-eliminar-categoria { background-color: #F08080; color: white; }
         /* Efecto hover general de botones principales */
-        #resumen-carrito button:hover, #btn-login:hover, #btn-guardar-producto:hover, #btn-cancelar-edicion:hover, .btn-admin-categoria:hover { background-color: #9264B5; } /* CAMBIO: Lila más oscuro */
+        #resumen-carrito button:hover, #btn-login:hover, #btn-guardar-producto:hover, #btn-cancelar-edicion:hover, .btn-admin-categoria:hover { background-color: #9264B5; } /* Lila más oscuro */
         #btn-vaciar-carrito { background-color: #DC143C !important; color: white !important; }
         #btn-vaciar-carrito:hover { background-color: #B22222 !important; }
 
@@ -136,7 +136,7 @@
             color: var(--color-texto); border: none; margin: 0 5px;
             border-radius: 5px; font-weight: bold;
         }
-        /* Pestaña activa (Azul Marino Oscuro) */
+        /* Pestaña activa (LILA) */
         .tab-button.active { background-color: var(--color-acento); color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
 
         #admin-panel input[type="text"], #admin-panel input[type="number"], #admin-panel input[type="password"], #admin-panel select {
@@ -217,7 +217,7 @@
                 <div id="resumen-carrito">
                     <p>TOTAL DE LA COMPRA: <span id="carrito-total">$0.00</span></p> 
                     <button id="btn-vaciar-carrito">VACIAR CARRITO</button>
-                    <button id="btn-comprar-whatsapp">ENVIAR PEDIDO POR WHATSAPP</button>
+                    <button id="btn-comprar-whatsapp">COMPRAR Y ENVIAR POR WHATSAPP</button>
                 </div>
             </section>
         </div>
@@ -633,4 +633,117 @@
         };
 
         const gestionarFormularioProducto = (e) => {
-            e.preventDefault
+            e.preventDefault();
+            const id = document.getElementById('producto-id').value;
+            const nombre = document.getElementById('producto-nombre').value.trim().toUpperCase();
+            const precio = parseFloat(document.getElementById('producto-precio').value);
+            const foto = document.getElementById('producto-foto').value.trim();
+            const categoria = document.getElementById('producto-categoria').value;
+
+            if (!nombre || isNaN(precio) || !foto || !categoria) { mostrarMensaje("COMPLETE TODOS LOS CAMPOS."); return; }
+
+            if (id) {
+                const index = productos.findIndex(p => p.id === parseInt(id));
+                if (index !== -1) productos[index] = { id: parseInt(id), nombre, precio, foto, categoria };
+            } else {
+                const nuevoId = productos.length > 0 ? Math.max(...productos.map(p => p.id)) + 1 : 1;
+                productos.push({ id: nuevoId, nombre, precio, foto, categoria });
+            }
+
+            filtrarYRenderizarProductos(); 
+            limpiarFormulario();
+            renderizarFiltros(); // Actualiza el select de la tienda
+            filtrarProductos('TODOS'); // Muestra todo en la tienda al guardar
+            mostrarMensaje("PRODUCTO PROCESADO. NO OLVIDES DESCARGAR JSON.");
+        };
+
+        const cargarProductoParaEdicion = (id) => {
+            const p = productos.find(p => p.id === id);
+            if (p) {
+                document.getElementById('producto-id').value = p.id;
+                document.getElementById('producto-nombre').value = p.nombre;
+                document.getElementById('producto-precio').value = p.precio;
+                document.getElementById('producto-foto').value = p.foto;
+                renderizarSelectCategorias(p.categoria);
+                document.getElementById('btn-guardar-producto').textContent = 'GUARDAR CAMBIOS';
+                document.getElementById('btn-cancelar-edicion').style.display = 'inline-block';
+                window.scrollTo(0, 0);
+            }
+        };
+
+        const limpiarFormulario = () => {
+            document.getElementById('form-producto').reset();
+            document.getElementById('producto-id').value = '';
+            document.getElementById('btn-guardar-producto').textContent = 'GUARDAR PRODUCTO';
+            document.getElementById('btn-cancelar-edicion').style.display = 'none';
+            renderizarSelectCategorias(); 
+        };
+
+        const eliminarProducto = (id) => {
+            mostrarConfirmacion("¿ELIMINAR PRODUCTO DEFINITIVAMENTE?", (confirmado) => {
+                if (confirmado) {
+                    productos = productos.filter(p => p.id !== id);
+                    filtrarYRenderizarProductos(); 
+                    renderizarFiltros(); // Actualiza el select de la tienda
+                    renderizarProductos();
+                    mostrarMensaje("PRODUCTO ELIMINADO. DESCARGA EL JSON.");
+                }
+            });
+        };
+
+        const iniciarSesionAdmin = () => {
+            if (document.getElementById('admin-password').value.trim() === CLAVE_ADMIN) {
+                document.getElementById('login-seccion').style.display = 'none';
+                document.getElementById('gestion-productos').style.display = 'block';
+                document.getElementById('mensaje-error').style.display = 'none';
+                filtrarYRenderizarProductos(); 
+                renderizarSelectCategorias();
+            } else {
+                document.getElementById('mensaje-error').style.display = 'block';
+            }
+        };
+
+        const mostrarPestana = (id, e) => {
+            document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+            
+            const panelToShow = document.getElementById(`${id}-panel`);
+            if (panelToShow) {
+                panelToShow.style.display = 'block';
+            }
+            
+            document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+            if(e) e.target.classList.add('active');
+            
+            if (id === 'carrito') {
+                renderizarCarrito(); 
+            }
+            
+            if (id === 'tienda') {
+                renderizarCarrito(); 
+                // Al volver a la tienda, se asegura que el filtro esté en 'TODOS'
+                const selectFiltros = document.getElementById('select-filtros-tienda');
+                if(selectFiltros) {
+                    selectFiltros.value = 'TODOS';
+                    filtrarProductos('TODOS'); 
+                }
+            }
+           window.scrollTo(0, 0); 
+        };
+
+        // =================================================================
+        // 7. INICIALIZACIÓN
+        // =================================================================
+        window.onload = () => {
+            cargarDatosIniciales();
+            
+            document.getElementById('btn-vaciar-carrito')?.addEventListener('click', vaciarCarrito);
+            document.getElementById('btn-comprar-whatsapp')?.addEventListener('click', generarMensajeWhatsApp);
+            document.getElementById('btn-login')?.addEventListener('click', iniciarSesionAdmin);
+            document.getElementById('form-producto')?.addEventListener('submit', gestionarFormularioProducto);
+            document.getElementById('btn-cancelar-edicion')?.addEventListener('click', limpiarFormulario);
+            document.getElementById('form-categoria')?.addEventListener('submit', gestionarFormularioCategoria);
+            document.getElementById('buscador-admin')?.addEventListener('input', filtrarYRenderizarProductos);
+        };
+    </script>
+</body>
+</html>
