@@ -6,12 +6,12 @@
     <title>ACCESORIOS Y MODA - Tienda Online</title>
     
    <style>
-        /* PALETA FINAL: LILA/ROSA con AZUL MARINO como ACENTO LLAMATIVO (COLORES CORREGIDOS) */ 
-        :root {
+        /* PALETA FINAL: LILA/ROSA con AMARILLO PASTEL como ACENTO LLAMATIVO */ 
+        :root {f
             --color-fondo: #F8F8FF; /* BLANCO SUAVE (GhostWhite) */
             --color-primario: #E6E6FA; /* LAVANDA PÁLIDO (Fondo de tarjetas y pestañas) */
             --color-secundario: #DDA0DD; /* CIRUELA SUAVE (Bordes, fondos de ítems) */
-            --color-acento:#B57EDC; /* LILA */ /* <<-- CORREGIDO EL PUNTO Y COMA */
+            --color-acento: #FFFACD; /* AMARILLO PASTEL CLARO (Lemon Chiffon) */
             --color-texto: #000000; /* NEGRO PURO */
             --color-borde: #A9A9A9; /* GRIS OSCURO SUAVE */
         }
@@ -25,9 +25,9 @@
             text-transform: uppercase;
         }
 
-        /* CABECERA LLAMATIVA (LILA con Texto Blanco) */
+        /* CABECERA LLAMATIVA (Ahora con Amarillo Pastel y Texto Negro) */
         header {
-            background-color: var(--color-acento); /* LILA */
+            background-color: var(--color-acento); /* Usa el Amarillo Pastel Claro */
             padding: 20px; text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
             margin-bottom: 20px;
@@ -35,7 +35,7 @@
         header h1 { 
             margin: 0; 
             font-size: 2.5em; 
-            color: white; /* Texto Blanco para contraste */
+            color: var(--color-texto); /* Texto Negro para contraste con fondo claro */
         }
 
         main { padding: 20px; max-width: 1200px; margin: 0 auto; }
@@ -46,7 +46,9 @@
         }
         
         .categoria-titulo {
-            border-bottom: none; margin-bottom: 15px;
+            border-bottom: 2px solid var(--color-secundario); /* AÑADE LA LÍNEA LILA */
+            padding-bottom: 10px; /* Espacio entre el título y la línea */
+            margin-bottom: 15px;
             font-size: 1.8em; font-weight: 700;
         }
 
@@ -70,12 +72,12 @@
         .producto-card h4 { margin: 5px 0; font-size: 1.1em; min-height: 40px; }
         .producto-card p.precio { font-weight: bold; color: var(--color-acento); font-size: 1.2em; margin: 10px 0; }
         .producto-card button {
-            background-color: var(--color-acento); /* Usa el color acento LILA */
-            color: white;
+            background-color: var(--color-acento); /* Usa el Amarillo Pastel (Acento) */
+            color: var(--color-texto); /* Texto negro para contraste con el fondo claro */
             border: none; padding: 8px 15px; border-radius: 4px;
             cursor: pointer; transition: background-color 0.2s;
         }
-        .producto-card button:hover { background-color: #9264B5; } /* Lila más oscuro al pasar el mouse */
+        .producto-card button:hover { background-color: #E0E0A9; } /* Amarillo ligeramente más oscuro al pasar el mouse */
 
         #lista-carrito { margin-bottom: 20px; border: 1px dashed var(--color-borde); padding: 10px; }
         .carrito-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px dotted var(--color-borde); }
@@ -102,19 +104,19 @@
         /* BOTONES GENERALES */
         #resumen-carrito button, #btn-login, #btn-guardar-producto, #btn-cancelar-edicion, .btn-admin-categoria, .btn-descargar-json {
             padding: 10px 20px; margin-right: 10px;
-            background-color: var(--color-acento); /* Usa el color acento LILA */
-            color: white;
+            background-color: var(--color-acento); /* Amarillo Pastel para botones principales */
+            color: var(--color-texto); /* Texto negro para contraste */
             border: none; border-radius: 5px; cursor: pointer;
             font-weight: bold; text-transform: uppercase; transition: background-color 0.2s;
         }
-        /* Botones de Descarga JSON (se mantiene un color distinto) */
-        .btn-descargar-json { background-color: #4682B4; margin-top: 10px; width: 100%; }
-        .btn-descargar-json:hover { background-color: #5F9EA0; }
+        /* Botones de Descarga JSON (se mantiene un color distinto de amarillo para que resalten) */
+        .btn-descargar-json { background-color: #E0E0A9; margin-top: 10px; width: 100%; }
+        .btn-descargar-json:hover { background-color: #CCCC88; } /* Color de acento amarillo más oscuro para hover */
 
         .btn-admin-categoria { padding: 5px 10px; font-size: 0.8em; margin-right: 5px; }
         .btn-eliminar-categoria { background-color: #F08080; color: white; }
         /* Efecto hover general de botones principales */
-        #resumen-carrito button:hover, #btn-login:hover, #btn-guardar-producto:hover, #btn-cancelar-edicion:hover, .btn-admin-categoria:hover { background-color: #9264B5; } /* Lila más oscuro */
+        #resumen-carrito button:hover, #btn-login:hover, #btn-guardar-producto:hover, #btn-cancelar-edicion:hover, .btn-admin-categoria:hover { background-color: #E0E0A9; } /* Amarillo más oscuro */
         #btn-vaciar-carrito { background-color: #DC143C !important; color: white !important; }
         #btn-vaciar-carrito:hover { background-color: #B22222 !important; }
 
@@ -122,22 +124,20 @@
         .tabs { 
             display: flex; justify-content: center; 
             margin-bottom: 20px; 
-            
-            /* ESTILOS PARA HACERLO FIJO: */
-            position: sticky; /* Sticky es más suave que fixed */
-            top: 0; /* Lo mantiene anclado al borde superior */
-            z-index: 10; /* Asegura que esté siempre por encima del contenido */
-            background-color: var(--color-fondo); /* Fondo suave */
-            padding: 10px 0; /* Espacio arriba y abajo */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Sombra para que se note flotante */
+            position: sticky; 
+            top: 0; 
+            z-index: 10; 
+            background-color: var(--color-fondo); 
+            padding: 10px 0; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
         }
         .tab-button {
             padding: 10px 20px; cursor: pointer; background-color: var(--color-primario);
             color: var(--color-texto); border: none; margin: 0 5px;
             border-radius: 5px; font-weight: bold;
         }
-        /* Pestaña activa (LILA) */
-        .tab-button.active { background-color: var(--color-acento); color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+        /* Pestaña activa (Amarillo Pastel) */
+        .tab-button.active { background-color: var(--color-acento); color: var(--color-texto); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
 
         #admin-panel input[type="text"], #admin-panel input[type="number"], #admin-panel input[type="password"], #admin-panel select {
             width: 100%; padding: 10px; margin: 5px 0 15px 0; display: inline-block;
@@ -145,15 +145,28 @@
             color: var(--color-texto); text-transform: uppercase;
         }
         
+        /* ESTILO PARA PRODUCTOS EN ADMINISTRACIÓN (AGREGADO PARA SUSPENDER) */
         .admin-producto-item {
             display: flex; justify-content: space-between; align-items: center;
             padding: 10px; border: 1px solid var(--color-secundario);
             margin-bottom: 5px; border-radius: 4px; background-color: var(--color-primario);
+            transition: border-left 0.3s ease; /* Transición para el borde suspendido */
         }
+        .admin-producto-item.admin-producto-suspendido {
+             border-left: 5px solid #FFA500; /* Borde NARANJA para sin stock */
+        }
+        
         .admin-producto-item img { width: 50px; height: 50px; object-fit: cover; margin-right: 10px; border-radius: 4px; }
         .admin-producto-info { flex-grow: 1; }
-        .admin-producto-acciones button { margin-left: 5px; padding: 5px 10px; font-size: 0.8em; background-color: #F08080; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        .admin-producto-acciones button { margin-left: 5px; padding: 5px 10px; font-size: 0.8em; border: none; border-radius: 4px; cursor: pointer; }
+        .admin-producto-acciones button.btn-eliminar { background-color: #F08080; color: white; }
         .admin-producto-acciones button.btn-modificar { background-color: var(--color-secundario); color: var(--color-texto); }
+        .admin-producto-acciones button.btn-suspender { 
+            /* El color se maneja en JS, pero añadimos margen */
+            margin-right: 5px;
+            color: white; 
+            font-weight: bold;
+        }
         
         #buscador-admin { margin-bottom: 15px; padding: 10px; border: 2px solid var(--color-secundario); border-radius: 5px; width: 100%; box-sizing: border-box; color: var(--color-texto); text-transform: uppercase; }
         .lista-categorias-admin { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
@@ -161,7 +174,15 @@
         .categoria-tag button { background: none; border: none; color: var(--color-texto); margin-left: 5px; cursor: pointer; font-weight: bold; font-size: 1em; padding: 0; line-height: 1; }
 
         @media (max-width: 768px) { .producto-card { width: calc(50% - 10px); } .carrito-item { flex-wrap: wrap; text-align: center; } .carrito-item input { margin: 5px 0; } }
-        @media (max-width: 480px) { .producto-card { width: 100%; } header h1 { font-size: 1.8em; } #resumen-carrito button { width: 100%; margin-top: 10px; } }
+        /* MEDIA QUERY PARA MÓVILES */
+        @media (max-width: 480px) { 
+            .producto-card { 
+                width: 100%; 
+                padding: 10px 5px; 
+            } 
+            header h1 { font-size: 1.8em; } 
+            #resumen-carrito button { width: 100%; margin-top: 10px; } 
+        }
         
         .modal { display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); }
         .modal-content { background-color: var(--color-fondo); margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; border-radius: 8px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
@@ -215,9 +236,10 @@
                 <h2>🛒 CARRITO DE COMPRAS</h2>
                 <div id="lista-carrito"><p>EL CARRITO ESTÁ VACÍO.</p></div>
                 <div id="resumen-carrito">
+                    <input type="text" id="nombre-cliente-whatsapp" placeholder="ESCRIBA SU NOMBRE COMPLETO" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid var(--color-borde); border-radius: 5px;" required>
                     <p>TOTAL DE LA COMPRA: <span id="carrito-total">$0.00</span></p> 
                     <button id="btn-vaciar-carrito">VACIAR CARRITO</button>
-                    <button id="btn-comprar-whatsapp">📞 ENVIAR PEDIDO POR WASAP</button>
+                    <button id="btn-comprar-whatsapp">📞 ENVIAR PEDIDO POR WSAPP</button>
                 </div>
             </section>
         </div>
@@ -271,47 +293,83 @@
 
     <script>
         // =================================================================
-        // 1. GESTIÓN DE DATOS Y CARGA DESDE JSON
+        // 1. GESTIÓN DE DATOS Y CARGA (VERSIÓN FINAL PARA SERVIDOR/GITHUB)
         // =================================================================
         
-        let productos = [];
         let categorias = [];
+        let productos = [];
+        
         let carrito = JSON.parse(localStorage.getItem('carritoMM')) || []; 
         const CLAVE_ADMIN = "MM2025"; 
 
+        // Producto de prueba para mostrar cuando la carga falla
+        const PRODUCTO_CARGA_FALLIDA = { 
+            id: 9999, 
+            nombre: "CARGADOR DE PRUEBA (CARGA FALLIDA)", 
+            precio: 1.00, 
+            foto: "https://placehold.co/300x300/DC143C/FFFFFF?text=CARGA+FALLIDA", 
+            categoria: "PRUEBA",
+            suspendido: false // Se añade el campo suspendido
+        };
+        
         async function cargarDatosIniciales() {
             try {
-                const respCat = await fetch('categorias.json');
-                if (!respCat.ok) throw new Error("No se pudo cargar categorias.json");
-                categorias = await respCat.json();
+                document.getElementById('loading-message').style.display = 'block';
+                
+                const [productosResponse, categoriasResponse] = await Promise.all([
+                    fetch('./productos.json'),
+                    fetch('./categorias.json')
+                ]);
 
-                const respProd = await fetch('productos.json');
-                if (!respProd.ok) throw new Error("No se pudo cargar productos.json");
-                productos = await respProd.json();
+                if (!productosResponse.ok) {
+                    throw new Error("No se pudo cargar productos.json");
+                }
+                if (!categoriasResponse.ok) {
+                    throw new Error("No se pudo cargar categorias.json");
+                }
 
-                // Llama al nuevo renderizador de filtros
+                const productosData = await productosResponse.json();
+                
+                // Asegurar que todos los productos tienen el campo 'suspendido'
+                productos = productosData.map(p => ({ 
+                    ...p, 
+                    suspendido: p.suspendido === undefined ? false : p.suspendido 
+                }));
+                categorias = await categoriasResponse.json();
+
+            } catch (error) {
+                console.error("Error al cargar datos iniciales. Usando producto de prueba:", error);
+                
+                // Si la carga falla, se inicializa con el producto de prueba y la categoría PRUEBA
+                productos = [PRODUCTO_CARGA_FALLIDA];
+                categorias = ["PRUEBA"];
+                mostrarMensaje("AVISO: No se encontraron los archivos JSON. Usa el panel Administrador para crearlos y descargarlos.");
+            } finally {
+                // Inicializa la aplicación con los datos cargados o de prueba
                 renderizarFiltros(); 
-                // Asegura que al cargar, se muestren TODOS los productos
                 filtrarProductos('TODOS');
                 renderizarCarrito();
                 document.getElementById('loading-message').style.display = 'none';
-
-            } catch (error) {
-                console.error(error);
-                mostrarMensaje("ERROR AL CARGAR DATOS: " + error.message);
-                document.getElementById('loading-message').textContent = "ERROR CARGANDO DATOS.";
             }
         }
 
         // =================================================================
-        // 2. LÓGICA DE DESCARGA DE JSON
+        // 2. LÓGICA DE DESCARGA DE JSON (ACTUALIZADA CON CAMPO SUSPENDIDO)
         // =================================================================
 
         const descargarJSON = (tipo) => {
             let datos, nombreArchivo;
             
             if (tipo === 'productos') {
-                datos = productos.sort((a, b) => a.id - b.id);
+                 // Asegura que todos los productos tienen el campo suspendido al descargar
+                datos = productos.map(p => ({
+                    id: p.id,
+                    nombre: p.nombre,
+                    precio: p.precio,
+                    foto: p.foto,
+                    categoria: p.categoria,
+                    suspendido: p.suspendido || false // Añade el estado de suspensión
+                })).sort((a, b) => a.id - b.id);
                 nombreArchivo = "productos.json";
             } else {
                 datos = categorias.sort();
@@ -344,7 +402,7 @@
             mensajeDiv.textContent = texto;
             mensajeDiv.style.cssText = `
                 position: fixed; top: 20px; right: 20px;
-                background-color: var(--color-acento); color: white;
+                background-color: #E0E0A9; color: var(--color-texto); /* Fondo amarillo claro y texto negro */
                 padding: 15px; border-radius: 8px; z-index: 1000;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.2);
                 text-transform: uppercase; font-weight: bold;
@@ -377,27 +435,31 @@
         };
 
         // =================================================================
-        // 4. TIENDA Y FILTRADO (AHORA CON SELECT)
+        // 4. TIENDA Y FILTRADO (AHORA FILTRA SUSPENDIDOS)
         // =================================================================
         
         const renderizarProductos = (productosParaMostrar = productos, filtroActivo = 'TODOS') => {
             const productosSeccion = document.getElementById('productos-seccion');
             if (!productosSeccion) return; 
 
-            // Se mantiene el h2 y se añade el select abajo, por lo que solo se reemplaza el contenido interno
+            // FILTRO CLAVE: NO MOSTRAR PRODUCTOS SUSPENDIDOS EN LA TIENDA
+            const productosParaMostrarFiltrados = productosParaMostrar.filter(p => !p.suspendido);
+            
             const selectFiltrosElement = productosSeccion.querySelector('#select-filtros-tienda');
             const selectFiltrosHTML = selectFiltrosElement ? selectFiltrosElement.outerHTML : '';
 
-
             productosSeccion.innerHTML = '<h2>🛍️ NUESTROS PRODUCTOS</h2>' + selectFiltrosHTML + '<div id="loading-message" style="display:none"></div>';
 
-
-            if (productosParaMostrar.length === 0 && filtroActivo !== 'TODOS') {
-                productosSeccion.innerHTML += `<p style="text-align: center; font-style: italic;">No hay productos para mostrar en la categoría "${filtroActivo}".</p>`;
+            if (productosParaMostrarFiltrados.length === 0) {
+                 // Mensaje si no hay productos activos
+                const mensaje = filtroActivo !== 'TODOS' 
+                    ? `No hay productos activos para mostrar en la categoría "${filtroActivo}".` 
+                    : `No hay productos activos para mostrar.`;
+                productosSeccion.innerHTML += `<p style="text-align: center; font-style: italic;">${mensaje}</p>`;
                 return;
             }
 
-            const categoriasProductos = productosParaMostrar.reduce((acc, producto) => {
+            const categoriasProductos = productosParaMostrarFiltrados.reduce((acc, producto) => {
                 const categoriaNombre = producto.categoria || 'SIN CATEGORÍA';
                 if (!acc[categoriaNombre]) acc[categoriaNombre] = [];
                 acc[categoriaNombre].push(producto);
@@ -432,8 +494,12 @@
 
             let htmlOptions = `<option value="TODOS">TODOS LOS PRODUCTOS</option>`;
             
-            // Obtenemos las categorías únicas de los productos y las ordenamos
-            const categoriasUnicas = new Set(productos.map(p => p.categoria).filter(c => c && c.trim() !== ''));
+            // Usamos las categorías de los productos activos
+            const categoriasUnicas = new Set(productos
+                .filter(p => !p.suspendido) 
+                .map(p => p.categoria)
+                .filter(c => c && c.trim() !== '')
+            );
             const categoriasOrdenadas = Array.from(categoriasUnicas).sort();
 
             categoriasOrdenadas.forEach(cat => {
@@ -441,16 +507,15 @@
             });
             
             selectFiltros.innerHTML = htmlOptions;
-            // Asegura que al iniciar, el select esté en "TODOS"
             selectFiltros.value = 'TODOS';
         };
 
-        // Función de filtrado simplificada para recibir el valor del select
         const filtrarProductos = (categoria) => {
             let productosFiltrados = [];
             if (categoria === 'TODOS') {
                 productosFiltrados = productos;
             } else {
+                // Filtra por categoría, luego renderizarProductos oculta los suspendidos
                 productosFiltrados = productos.filter(p => p.categoria === categoria);
             }
 
@@ -461,15 +526,19 @@
         // =================================================================
         // 5. CARRITO
         // =================================================================
-
+        
         const agregarAlCarrito = (productoId) => {
             const itemEnCarrito = carrito.find(item => item.id === productoId);
             if (itemEnCarrito) {
                 itemEnCarrito.cantidad++;
             } else {
                 const producto = productos.find(p => p.id === productoId);
-                if (producto) {
+                // Validación extra: no permitir agregar si está suspendido (aunque no debería verse en la tienda)
+                if (producto && !producto.suspendido) {
                     carrito.push({ id: producto.id, nombre: producto.nombre, precio: producto.precio, cantidad: 1 });
+                } else if (producto && producto.suspendido) {
+                    mostrarMensaje("PRODUCTO SIN STOCK TEMPORALMENTE.");
+                    return;
                 }
             }
             guardarCarrito();
@@ -532,23 +601,39 @@
             });
         };
 
+        // FUNCIÓN DE WHATSAPP CON FORMATO CORREGIDO
         const generarMensajeWhatsApp = () => {
+            const inputNombre = document.getElementById('nombre-cliente-whatsapp');
+            const nombreCliente = inputNombre.value.trim().toUpperCase();
+
             if (carrito.length === 0) { mostrarMensaje("EL CARRITO ESTÁ VACÍO."); return; }
-            let mensaje = "TU PEDIDO:\n\n";
+            
+            if (nombreCliente === "") {
+                mostrarMensaje("POR FAVOR, INGRESE SU NOMBRE COMPLETO.");
+                inputNombre.focus(); 
+                return; 
+            }
+
+            let mensaje = `*PEDIDO DE ${nombreCliente}*\n\n`; 
+            
             let total = 0;
             carrito.forEach(item => {
                 const subtotal = item.precio * item.cantidad;
                 total += subtotal;
-                mensaje += `* ${item.nombre} (x${item.cantidad}) - SUBT: $${subtotal.toFixed(2)}\n`;
+                // CORRECCIÓN CLAVE: Salto de línea después del subtotal y * al inicio
+                mensaje += `- ${item.nombre} (x${item.cantidad}) - SUBT: $${subtotal.toFixed(2)}\n`; 
             });
+            
             mensaje += `\nTOTAL DE LA COMPRA: $${total.toFixed(2)}`;
             mensaje += "\n\nGRACIAS POR TU COMPRA! NOS COMUNICAREMOS PRONTO PARA CONFIRMAR STOCK Y COORDINAR LA ENTREGA."; 
+            
             const numeroTelefono = "543571536378"; 
             window.open(`https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`, '_blank');
         };
 
+
         // =================================================================
-        // 6. ADMINISTRACIÓN
+        // 6. ADMINISTRACIÓN (CON LÓGICA DE SUSPENDER)
         // =================================================================
         
         const renderizarSelectCategorias = (categoriaActual = '') => {
@@ -565,7 +650,8 @@
         const renderizarListaAdminCategorias = () => {
             const listaAdmin = document.getElementById('lista-categorias-admin');
             let htmlContent = '';
-            categorias.forEach(cat => {
+            // Aseguramos que las categorías se muestren ordenadas
+            categorias.sort().forEach(cat => {
                 htmlContent += `<div class="categoria-tag">${cat} <button onclick="eliminarCategoria('${cat}')" class="btn-eliminar-categoria">X</button></div>`;
             });
             listaAdmin.innerHTML = htmlContent;
@@ -580,8 +666,9 @@
             if (categorias.includes(nuevaCat)) { mostrarMensaje("YA EXISTE."); return; }
 
             categorias.push(nuevaCat);
+            categorias.sort(); // Reordenar al agregar
             renderizarSelectCategorias(); 
-            renderizarFiltros(); // Actualiza el select de la tienda
+            renderizarFiltros(); 
             inputCategoria.value = '';
             mostrarMensaje("CATEGORÍA AGREGADA (RECUERDA DESCARGAR JSON).");
         };
@@ -596,7 +683,7 @@
                     categorias = categorias.filter(cat => cat !== catAEliminar);
                     productos.forEach(p => { if (p.categoria === catAEliminar) p.categoria = ''; });
                     renderizarSelectCategorias(); 
-                    renderizarFiltros(); // Actualiza el select de la tienda
+                    renderizarFiltros(); 
                     filtrarYRenderizarProductos(); 
                     renderizarProductos(); 
                     mostrarMensaje("CATEGORÍA ELIMINADA. DESCARGA LOS JSON PARA GUARDAR.");
@@ -604,25 +691,63 @@
             });
         };
 
+        // FUNCIÓN PARA TOGGLE DEL ESTADO SUSPENDIDO (NUEVO)
+        const suspenderProducto = (id) => {
+            const index = productos.findIndex(p => p.id === id);
+            // El producto de ID 9999 es el de prueba de carga fallida, no se puede suspender.
+            if (index !== -1 && id !== 9999) { 
+                const nuevoEstado = !productos[index].suspendido;
+                const nombreProducto = productos[index].nombre;
+                
+                mostrarConfirmacion(`¿ESTÁ SEGURO DE ${nuevoEstado ? 'MARCAR SIN STOCK' : 'ACTIVAR'} EL PRODUCTO "${nombreProducto}"?`, (confirmado) => {
+                    if (confirmado) {
+                        productos[index].suspendido = nuevoEstado;
+                        filtrarYRenderizarProductos(); // Actualiza el panel Admin
+                        renderizarFiltros(); // Actualiza filtros de tienda (por si afecta las categorías)
+                        
+                        const filtroActual = document.getElementById('select-filtros-tienda')?.value || 'TODOS';
+                        filtrarProductos(filtroActual); // Actualiza la Tienda
+                        mostrarMensaje(`PRODUCTO ${nuevoEstado ? 'SIN STOCK' : 'ACTIVADO'}. RECUERDA DESCARGAR JSON.`);
+                    }
+                });
+            }
+        };
+
+
         const filtrarYRenderizarProductos = () => {
             const listaAdmin = document.getElementById('lista-admin-productos');
             const termino = document.getElementById('buscador-admin').value.trim().toUpperCase();
-            const productosFiltrados = productos.filter(p => p.nombre.includes(termino));
+            
+            // Excluir el producto de carga fallida de la lista del administrador
+            const productosReales = productos.filter(p => p.id !== 9999);
+            
+            const productosFiltrados = productosReales.filter(p => 
+                p.nombre.includes(termino) || (p.id ? p.id.toString().includes(termino) : false)
+            );
 
             let htmlContent = '';
             if (productosFiltrados.length === 0 && termino.length > 0) {
                 htmlContent = `<p style="text-align: center;">NO SE ENCONTRARON RESULTADOS.</p>`;
+            } else if (productosReales.length === 0 && termino.length === 0) {
+                htmlContent = `<p style="text-align: center;">Aún no hay productos reales en la lista.</p>`;
             } else {
                 productosFiltrados.forEach(p => {
+                    // Lógica para Suspender/Activar (NUEVO)
+                    const suspendidoClass = p.suspendido ? 'admin-producto-suspendido' : '';
+                    const suspendidoText = p.suspendido ? 'ACTIVAR' : 'SIN STOCK';
+                    const suspendidoColor = p.suspendido ? '#5cb85c' : '#FFA500'; // Verde: Activar, Naranja: Sin Stock
+                    
                     htmlContent += `
-                        <div class="admin-producto-item">
+                        <div class="admin-producto-item ${suspendidoClass}">
                             <img src="${p.foto}" alt="${p.nombre}" onerror="this.onerror=null; this.src='https://placehold.co/50x50/ADD8E6/000?text=SF';">
                             <div class="admin-producto-info">
                                 <p><strong>ID: ${p.id}</strong> | ${p.nombre}</p>
                                 <p>$${p.precio.toFixed(2)} | CAT: ${p.categoria || 'SIN CATEGORÍA'}</p>
+                                ${p.suspendido ? '<p style="color: #FFA500; font-weight: bold;">(SIN STOCK)</p>' : ''}
                             </div>
                             <div class="admin-producto-acciones">
                                 <button onclick="cargarProductoParaEdicion(${p.id})" class="btn-modificar">MODIFICAR</button>
+                                <button onclick="suspenderProducto(${p.id})" class="btn-suspender" style="background-color: ${suspendidoColor};">${suspendidoText}</button>
                                 <button onclick="eliminarProducto(${p.id})" class="btn-eliminar">ELIMINAR</button>
                             </div>
                         </div>
@@ -641,19 +766,39 @@
             const categoria = document.getElementById('producto-categoria').value;
 
             if (!nombre || isNaN(precio) || !foto || !categoria) { mostrarMensaje("COMPLETE TODOS LOS CAMPOS."); return; }
+            
+            // Si hay un producto de prueba, lo eliminamos antes de añadir/modificar un producto real
+            if (productos.length === 1 && productos[0].id === 9999) productos = []; 
 
             if (id) {
                 const index = productos.findIndex(p => p.id === parseInt(id));
-                if (index !== -1) productos[index] = { id: parseInt(id), nombre, precio, foto, categoria };
+                if (index !== -1) {
+                    // Preservar el estado de suspendido al modificar
+                    productos[index] = { 
+                        id: parseInt(id), 
+                        nombre, 
+                        precio, 
+                        foto, 
+                        categoria,
+                        suspendido: productos[index].suspendido || false // Mantener estado de suspensión
+                    };
+                }
             } else {
                 const nuevoId = productos.length > 0 ? Math.max(...productos.map(p => p.id)) + 1 : 1;
-                productos.push({ id: nuevoId, nombre, precio, foto, categoria });
+                productos.push({ 
+                    id: nuevoId, 
+                    nombre, 
+                    precio, 
+                    foto, 
+                    categoria,
+                    suspendido: false // Nuevo producto inicia como activo
+                });
             }
 
             filtrarYRenderizarProductos(); 
             limpiarFormulario();
-            renderizarFiltros(); // Actualiza el select de la tienda
-            filtrarProductos('TODOS'); // Muestra todo en la tienda al guardar
+            renderizarFiltros(); 
+            filtrarProductos('TODOS'); 
             mostrarMensaje("PRODUCTO PROCESADO. NO OLVIDES DESCARGAR JSON.");
         };
 
@@ -684,7 +829,7 @@
                 if (confirmado) {
                     productos = productos.filter(p => p.id !== id);
                     filtrarYRenderizarProductos(); 
-                    renderizarFiltros(); // Actualiza el select de la tienda
+                    renderizarFiltros(); 
                     renderizarProductos();
                     mostrarMensaje("PRODUCTO ELIMINADO. DESCARGA EL JSON.");
                 }
@@ -746,4 +891,5 @@
         };
     </script>
 </body>
+
 </html>
