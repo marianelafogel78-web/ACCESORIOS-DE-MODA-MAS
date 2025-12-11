@@ -6,13 +6,14 @@
     <title>ACCESORIOS Y MODA - Tienda Online</title>
     
    <style>
-        /* PALETA FINAL: LILA/ROSA con AMARILLO PASTEL como ACENTO LLAMATIVO */ 
-        :root {f
+        /* PALETA FINAL: LAVANDA/CIRUELA con ROSA VIBRANTE como ACENTO LLAMATIVO */ 
+        :root {
             --color-fondo: #F8F8FF; /* BLANCO SUAVE (GhostWhite) */
             --color-primario: #E6E6FA; /* LAVANDA PÁLIDO (Fondo de tarjetas y pestañas) */
             --color-secundario: #DDA0DD; /* CIRUELA SUAVE (Bordes, fondos de ítems) */
-            --color-acento: #FFFACD; /* AMARILLO PASTEL CLARO (Lemon Chiffon) */
+            --color-acento: #FF007F; /* ROSA VIBRANTE (ACENTO LLAMATIVO - Rose) */
             --color-texto: #000000; /* NEGRO PURO */
+            --color-texto-acento: #FFFFFF; /* BLANCO PURO para el texto sobre el acento */
             --color-borde: #A9A9A9; /* GRIS OSCURO SUAVE */
         }
 
@@ -25,9 +26,9 @@
             text-transform: uppercase;
         }
 
-        /* CABECERA LLAMATIVA (Ahora con Amarillo Pastel y Texto Negro) */
+        /* CABECERA LLAMATIVA (Ahora con Rosa Vibrante y Texto Blanco) */
         header {
-            background-color: var(--color-acento); /* Usa el Amarillo Pastel Claro */
+            background-color: var(--color-acento); /* Usa el Rosa Vibrante */
             padding: 20px; text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
             margin-bottom: 20px;
@@ -35,7 +36,7 @@
         header h1 { 
             margin: 0; 
             font-size: 2.5em; 
-            color: var(--color-texto); /* Texto Negro para contraste con fondo claro */
+            color: var(--color-texto-acento); /* Texto Blanco para contraste con fondo vibrante */
         }
 
         main { padding: 20px; max-width: 1200px; margin: 0 auto; }
@@ -46,8 +47,8 @@
         }
         
         .categoria-titulo {
-            border-bottom: 2px solid var(--color-secundario); /* AÑADE LA LÍNEA LILA */
-            padding-bottom: 10px; /* Espacio entre el título y la línea */
+            border-bottom: 2px solid var(--color-secundario); 
+            padding-bottom: 10px; 
             margin-bottom: 15px;
             font-size: 1.8em; font-weight: 700;
         }
@@ -71,13 +72,14 @@
         .producto-card img { width: 100%; height: 300px; object-fit: cover; border-radius: 4px; margin-bottom: 10px; }
         .producto-card h4 { margin: 5px 0; font-size: 1.1em; min-height: 40px; }
         .producto-card p.precio { font-weight: bold; color: var(--color-acento); font-size: 1.2em; margin: 10px 0; }
+        /* BOTÓN DE CARRITO (Rosa Vibrante con Texto Blanco) */
         .producto-card button {
-            background-color: var(--color-acento); /* Usa el Amarillo Pastel (Acento) */
-            color: var(--color-texto); /* Texto negro para contraste con el fondo claro */
+            background-color: var(--color-acento); /* Usa el Rosa Vibrante */
+            color: var(--color-texto-acento); /* Texto Blanco */
             border: none; padding: 8px 15px; border-radius: 4px;
             cursor: pointer; transition: background-color 0.2s;
         }
-        .producto-card button:hover { background-color: #E0E0A9; } /* Amarillo ligeramente más oscuro al pasar el mouse */
+        .producto-card button:hover { background-color: #CC0066; } /* Rosa más oscuro al pasar el mouse */
 
         #lista-carrito { margin-bottom: 20px; border: 1px dashed var(--color-borde); padding: 10px; }
         .carrito-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px dotted var(--color-borde); }
@@ -89,10 +91,10 @@
         #select-filtros-tienda {
             padding: 10px;
             margin: 10px auto 20px auto;
-            border: 2px solid var(--color-acento);
+            border: 2px solid var(--color-acento); /* Borde Rosa Vibrante */
             border-radius: 5px;
-            background-color: white; /* FONDO BLANCO FIJO */
-            color: black; /* TEXTO NEGRO FIJO */
+            background-color: white; 
+            color: black; 
             font-weight: bold;
             text-transform: uppercase;
             width: 80%;
@@ -101,22 +103,22 @@
             display: block;
         }
 
-        /* BOTONES GENERALES */
+        /* BOTONES GENERALES (Rosa Vibrante con Texto Blanco) */
         #resumen-carrito button, #btn-login, #btn-guardar-producto, #btn-cancelar-edicion, .btn-admin-categoria, .btn-descargar-json {
             padding: 10px 20px; margin-right: 10px;
-            background-color: var(--color-acento); /* Amarillo Pastel para botones principales */
-            color: var(--color-texto); /* Texto negro para contraste */
+            background-color: var(--color-acento); /* Rosa Vibrante para botones principales */
+            color: var(--color-texto-acento); /* Texto Blanco */
             border: none; border-radius: 5px; cursor: pointer;
             font-weight: bold; text-transform: uppercase; transition: background-color 0.2s;
         }
-        /* Botones de Descarga JSON (se mantiene un color distinto de amarillo para que resalten) */
-        .btn-descargar-json { background-color: #E0E0A9; margin-top: 10px; width: 100%; }
-        .btn-descargar-json:hover { background-color: #CCCC88; } /* Color de acento amarillo más oscuro para hover */
+        /* Botones de Descarga JSON (Un tono más oscuro de rosa) */
+        .btn-descargar-json { background-color: #CC0066; margin-top: 10px; width: 100%; }
+        .btn-descargar-json:hover { background-color: #99004C; } 
 
         .btn-admin-categoria { padding: 5px 10px; font-size: 0.8em; margin-right: 5px; }
         .btn-eliminar-categoria { background-color: #F08080; color: white; }
         /* Efecto hover general de botones principales */
-        #resumen-carrito button:hover, #btn-login:hover, #btn-guardar-producto:hover, #btn-cancelar-edicion:hover, .btn-admin-categoria:hover { background-color: #E0E0A9; } /* Amarillo más oscuro */
+        #resumen-carrito button:hover, #btn-login:hover, #btn-guardar-producto:hover, #btn-cancelar-edicion:hover, .btn-admin-categoria:hover { background-color: #CC0066; } 
         #btn-vaciar-carrito { background-color: #DC143C !important; color: white !important; }
         #btn-vaciar-carrito:hover { background-color: #B22222 !important; }
 
@@ -136,8 +138,12 @@
             color: var(--color-texto); border: none; margin: 0 5px;
             border-radius: 5px; font-weight: bold;
         }
-        /* Pestaña activa (Amarillo Pastel) */
-        .tab-button.active { background-color: var(--color-acento); color: var(--color-texto); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+        /* Pestaña activa (Rosa Vibrante) */
+        .tab-button.active { 
+            background-color: var(--color-acento); 
+            color: var(--color-texto-acento); /* Texto Blanco */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+        }
 
         #admin-panel input[type="text"], #admin-panel input[type="number"], #admin-panel input[type="password"], #admin-panel select {
             width: 100%; padding: 10px; margin: 5px 0 15px 0; display: inline-block;
@@ -145,12 +151,12 @@
             color: var(--color-texto); text-transform: uppercase;
         }
         
-        /* ESTILO PARA PRODUCTOS EN ADMINISTRACIÓN (AGREGADO PARA SUSPENDER) */
+        /* ESTILO PARA PRODUCTOS EN ADMINISTRACIÓN */
         .admin-producto-item {
             display: flex; justify-content: space-between; align-items: center;
             padding: 10px; border: 1px solid var(--color-secundario);
             margin-bottom: 5px; border-radius: 4px; background-color: var(--color-primario);
-            transition: border-left 0.3s ease; /* Transición para el borde suspendido */
+            transition: border-left 0.3s ease; 
         }
         .admin-producto-item.admin-producto-suspendido {
              border-left: 5px solid #FFA500; /* Borde NARANJA para sin stock */
@@ -162,7 +168,6 @@
         .admin-producto-acciones button.btn-eliminar { background-color: #F08080; color: white; }
         .admin-producto-acciones button.btn-modificar { background-color: var(--color-secundario); color: var(--color-texto); }
         .admin-producto-acciones button.btn-suspender { 
-            /* El color se maneja en JS, pero añadimos margen */
             margin-right: 5px;
             color: white; 
             font-weight: bold;
@@ -309,7 +314,7 @@
             precio: 1.00, 
             foto: "https://placehold.co/300x300/DC143C/FFFFFF?text=CARGA+FALLIDA", 
             categoria: "PRUEBA",
-            suspendido: false // Se añade el campo suspendido
+            suspendido: false 
         };
         
         async function cargarDatosIniciales() {
@@ -400,9 +405,10 @@
         const mostrarMensaje = (texto) => {
             const mensajeDiv = document.createElement('div');
             mensajeDiv.textContent = texto;
+            // Se usa un color llamativo y fuerte para el mensaje de notificación (Crimson)
             mensajeDiv.style.cssText = `
                 position: fixed; top: 20px; right: 20px;
-                background-color: #E0E0A9; color: var(--color-texto); /* Fondo amarillo claro y texto negro */
+                background-color: #DC143C; color: white; 
                 padding: 15px; border-radius: 8px; z-index: 1000;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.2);
                 text-transform: uppercase; font-weight: bold;
