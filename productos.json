@@ -33,7 +33,7 @@
   },
   {
     "id": 11,
-    "nombre": "VINCHA OREJIS C/PERLAS ID11",
+    "nombre": "VINCHA OREJITAS C/PERLAS ID11",
     "precio": 1300,
     "foto": "https://i.postimg.cc/63JJMDf0/IMG-20251108-104236.jpg",
     "categoria": "VINCHAS",
@@ -185,7 +185,7 @@
   },
   {
     "id": 30,
-    "nombre": "HEBILLAS X 5UN ID30",
+    "nombre": "HEBILLAS X 5 UN ID30",
     "precio": 4600,
     "foto": "https://i.postimg.cc/mZ8fMCRG/IMG-20251108-124342.jpg",
     "categoria": "HEBILLAS BLISTER",
@@ -402,7 +402,7 @@
   {
     "id": 57,
     "nombre": "AROS PEQUEÑOS CON STRAS ID57",
-    "precio": 1,
+    "precio": 3500,
     "foto": "https://i.postimg.cc/TPyQK1mV/IMG-20251115-204107.jpg",
     "categoria": "AROS DE ACERO",
     "suspendido": false
@@ -505,7 +505,7 @@
   },
   {
     "id": 70,
-    "nombre": "COLITAS X 5 PARES ID 70",
+    "nombre": "COLITAS X 5 PARES ID70",
     "precio": 6900,
     "foto": "https://i.postimg.cc/0yt9CkQf/IMG-20251108-125031.jpg",
     "categoria": "COLITAS BLISTER",
@@ -569,7 +569,7 @@
   },
   {
     "id": 78,
-    "nombre": "COLITAS X 5UNID. ID78",
+    "nombre": "COLITAS X 5 UNID. ID78",
     "precio": 5450,
     "foto": "https://i.postimg.cc/bdc9Wfw3/IMG-20251108-124622.jpg",
     "categoria": "COLITAS BLISTER",
@@ -844,7 +844,7 @@
     "nombre": "PULSERA ID112",
     "precio": 4000,
     "foto": "https://i.postimg.cc/Vk5s1f8L/IMG-20251116-124849.jpg",
-    "categoria": "PULSERAS FANTASIA",
+    "categoria": "PULSERAS DE ACERO",
     "suspendido": false
   },
   {
@@ -1561,7 +1561,7 @@
   },
   {
     "id": 202,
-    "nombre": "PILUSO NIÑOS VARISO COLORES ID202",
+    "nombre": "PILUSO NIÑOS VARIOS COLORES ID202",
     "precio": 2500,
     "foto": "https://i.postimg.cc/x8b3KBJr/piluso.jpg",
     "categoria": "GORRAS",
@@ -1571,7 +1571,7 @@
     "id": 203,
     "nombre": "KIT ALICATES ID203",
     "precio": 3500,
-    "foto": "https://i.postimg.cc/bwLVNc15/IMG-20251115-181703.jpg",
+    "foto": "https://i.postimg.cc/B6jW7b35/images.jpg",
     "categoria": "CUIDADO PERSONAL",
     "suspendido": false
   },
@@ -1643,7 +1643,7 @@
     "id": 212,
     "nombre": "LIMA DE UÑAS X 1 ID212",
     "precio": 450,
-    "foto": "https://i.postimg.cc/j59zSKqr/limas.png",
+    "foto": "https://i.postimg.cc/rsYpRN3v/IMG-20251113-070552.jpg",
     "categoria": "CUIDADO PERSONAL",
     "suspendido": false
   },
@@ -1715,7 +1715,7 @@
     "id": 221,
     "nombre": "SOMBRA ID221",
     "precio": 4400,
-    "foto": "https://i.postimg.cc/PxzjtfQ8/hhl.png",
+    "foto": "https://i.postimg.cc/BQrSWb01/IMG-20251113-072029.jpg",
     "categoria": "MAQUILLAJES",
     "suspendido": false
   },
@@ -1723,7 +1723,7 @@
     "id": 222,
     "nombre": "SOMBRA ID222",
     "precio": 5900,
-    "foto": "https://i.postimg.cc/L6spppYd/ll.png",
+    "foto": "https://i.postimg.cc/kGkmd1L1/IMG-20251113-072039.jpg",
     "categoria": "MAQUILLAJES",
     "suspendido": false
   },
@@ -1731,7 +1731,7 @@
     "id": 223,
     "nombre": "SOMBRAID223",
     "precio": 6990,
-    "foto": "https://i.postimg.cc/HxmqPD1s/ui.png",
+    "foto": "https://i.postimg.cc/x1V2xZvp/IMG-20251113-072049.jpg",
     "categoria": "MAQUILLAJES",
     "suspendido": false
   },
@@ -1845,6 +1845,566 @@
     "precio": 5700,
     "foto": "https://i.postimg.cc/TwpTcvVh/q.png",
     "categoria": "ACCESORIOS DE HOMBRE",
+    "suspendido": false
+  },
+  {
+    "id": 238,
+    "nombre": "BILLETERA INFLUENCER ID238",
+    "precio": 16900,
+    "foto": "https://i.postimg.cc/9Mgp0vXF/IMG-20251112-162944.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 239,
+    "nombre": "BILLETERA INFLUENCER ID239",
+    "precio": 16900,
+    "foto": "https://i.postimg.cc/T18cnnbg/IMG-20251112-163004.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 240,
+    "nombre": "BILLETERA GDE. 1 CIERRE ID240",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/7615Qzc9/IMG-20251112-163146.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 241,
+    "nombre": "BILLETERA CHICA SKORA 1 CIERRE ID241",
+    "precio": 12600,
+    "foto": "https://i.postimg.cc/3xn59xn0/billetera.webp",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 242,
+    "nombre": "PORTA TARJETAS ID242",
+    "precio": 5700,
+    "foto": "https://i.postimg.cc/76SKsBqx/porta.webp",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 243,
+    "nombre": "BILLETERA TRENDY 1 CIERRE ID243",
+    "precio": 10600,
+    "foto": "https://i.postimg.cc/LsLk2nwk/IMG-20251112-163424.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 244,
+    "nombre": "BILLETERA TRENDY 1 CIERRE ID244",
+    "precio": 10600,
+    "foto": "https://i.postimg.cc/9XKftJrD/IMG-20251112-163350.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 245,
+    "nombre": "BILLETERA TRENDY 1 CIERRE ID245",
+    "precio": 10600,
+    "foto": "https://i.postimg.cc/HnXj7y0X/IMG-20251112-163343.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 246,
+    "nombre": "BILLETERA TRENDY 1 CIERRE ID246",
+    "precio": 8400,
+    "foto": "https://i.postimg.cc/QMvXkMd5/IMG-20251112-163332.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 247,
+    "nombre": "BILLETERA TRENDY CON BROCHE ID247",
+    "precio": 17950,
+    "foto": "https://i.postimg.cc/JzvwS2C1/IMG-20251112-163320.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 248,
+    "nombre": "BILLETERA TRENDY 2 CIERRES ID248",
+    "precio": 10400,
+    "foto": "https://i.postimg.cc/kGpwDLcx/IMG-20251112-163132.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 249,
+    "nombre": "BILLETERA TRENDY 1 CIERRE ID249",
+    "precio": 10600,
+    "foto": "https://i.postimg.cc/FKNbF94V/IMG-20251112-163057.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 250,
+    "nombre": "BILLETERA TRENDY 1 CIERRE ID250",
+    "precio": 10600,
+    "foto": "https://i.postimg.cc/3rVg4jhW/IMG-20251112-163048.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 251,
+    "nombre": "BILLETERA TRENDY MED. 1 CIERRE ID251",
+    "precio": 7400,
+    "foto": "https://i.postimg.cc/mhWzdwZM/IMG-20251112-162840.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 252,
+    "nombre": "BILLETERA TRENDY MED. 1 CIERRE ID252",
+    "precio": 8780,
+    "foto": "https://i.postimg.cc/WpB9Zqcs/IMG-20251112-162815.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 253,
+    "nombre": "BILLETERA TRENDY MED. 1 CIERRE ID253",
+    "precio": 7400,
+    "foto": "https://i.postimg.cc/4N8mMV4R/IMG-20251112-162731.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 254,
+    "nombre": "BILLETERA TRENDY MED. C/BROCHE Y CIERRE ID254",
+    "precio": 15300,
+    "foto": "https://i.postimg.cc/Qx5jg7B0/IMG-20251112-162427.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 255,
+    "nombre": "BILLETERA TRENDY MED. 1 CIERRE ID255",
+    "precio": 8780,
+    "foto": "https://i.postimg.cc/Kjp3nMRS/IMG-20251112-162403.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 256,
+    "nombre": "BILLETERA AMAYRA GDE. 1 CIERRE ID256",
+    "precio": 12400,
+    "foto": "https://i.postimg.cc/j5wSGF50/IMG-20251112-163248.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 257,
+    "nombre": "BILLETERA AMAYRA GDE. 1 CIERRE ID257",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/0ysZrgRC/IMG-20251112-163239.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 258,
+    "nombre": "BILLETERA AMAYRA GDE. 1 CIERRE ID258",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/RC1W92d4/IMG-20251112-163226.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 259,
+    "nombre": "BILLETERA AMAYRA GDE. 1 CIERRE ID259",
+    "precio": 12400,
+    "foto": "https://i.postimg.cc/x8Bx6qZJ/IMG-20251112-163105.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 260,
+    "nombre": "BILLETERA AMAYRA GDE. 1 CIERRE ID260",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/qBcxYbCW/IMG-20251112-163209.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 261,
+    "nombre": "BILLETERA AMAYRA GDE. 1 CIERRE ID261",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/T3cwvbJQ/IMG-20251112-163032.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 262,
+    "nombre": "BILLETERA AMAYRA MED. 1 CIERRE Y BROCHE ID262",
+    "precio": 8900,
+    "foto": "https://i.postimg.cc/L4q3497C/IMG-20251112-162501.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 263,
+    "nombre": "BILLETERA AMAYRA MED. 2 CIERRES ID263",
+    "precio": 9900,
+    "foto": "https://i.postimg.cc/vHKRgZHW/IMG-20251112-162333.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 264,
+    "nombre": "BILLETERA LEBLU 1 CIERRE ID264",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/3NDXt1pt/IMG-20251112-163412.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 265,
+    "nombre": "BILLETERA SKORA MED. 1 CIERRE ID265",
+    "precio": 7500,
+    "foto": "https://i.postimg.cc/43dBzzLR/IMG-20251112-162752.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 266,
+    "nombre": "BILLETERA INFLUENCER MED. 2 CIERRES ID266",
+    "precio": 14900,
+    "foto": "https://i.postimg.cc/fyK92PyC/IMG-20251112-162807.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 267,
+    "nombre": "BILLETERA INFLUENCER MED. 1CIERRE Y BROCHE ID267",
+    "precio": 19950,
+    "foto": "https://i.postimg.cc/FzsRRHF8/IMG-20251112-162558.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 268,
+    "nombre": "BILLETERA INF MED. 1 CIERRE CIEGO/CROCHE ID268",
+    "precio": 19950,
+    "foto": "https://i.postimg.cc/v8q8hMZF/IMG-20251112-162530.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 269,
+    "nombre": "BILLETERA INF. MED. 2 CIERRES ID269",
+    "precio": 17900,
+    "foto": "https://i.postimg.cc/MpkS3GkN/IMG-20251112-162049.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 270,
+    "nombre": "BILLETERA SKORA MED. 2 CIERRES ID270",
+    "precio": 9280,
+    "foto": "https://i.postimg.cc/xTmrmSkb/IMG-20251112-162658.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 271,
+    "nombre": "BILLETERA SKORA MED. 2 CIERRES ID271",
+    "precio": 11200,
+    "foto": "https://i.postimg.cc/v8VMrnk1/IMG-20251112-162615.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 272,
+    "nombre": "BILLETERA TRENDY MED. 1 CIERRE A.ID272",
+    "precio": 8700,
+    "foto": "https://i.postimg.cc/xCm7zv8d/IMG-20251112-162631.jpg",
+    "categoria": "BILLETERAS",
+    "suspendido": false
+  },
+  {
+    "id": 273,
+    "nombre": "MOCHILA INF. VERDE MILITAR ID273",
+    "precio": 36300,
+    "foto": "https://i.postimg.cc/QCh3N4mr/mochila.png",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 274,
+    "nombre": "MOCHILA INF. NEGRA ID274",
+    "precio": 36300,
+    "foto": "https://i.postimg.cc/yYFH5SmW/mochi.jpg",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 275,
+    "nombre": "MOCHILA WONDER PORTA MATE/NOTEBOOK ID275",
+    "precio": 39950,
+    "foto": "https://i.postimg.cc/jdT9D3fN/rr.webp",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 276,
+    "nombre": "MOCHILA GO PORTA MATE/NOTEBOOK ID276",
+    "precio": 39950,
+    "foto": "https://i.postimg.cc/90krnwZb/kk.jpg",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 277,
+    "nombre": "MOCHILA INF. VERDE MILITAR ID277",
+    "precio": 45900,
+    "foto": "https://i.postimg.cc/dV2Sw230/e.webp",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 278,
+    "nombre": "MOCHILA TRENDY ID278",
+    "precio": 36900,
+    "foto": "https://i.postimg.cc/2SGMndYC/ff.webp",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 279,
+    "nombre": "MOCHILA EVERLAST ID278",
+    "precio": 29990,
+    "foto": "https://i.postimg.cc/NjF7PRTr/mm.webp",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 280,
+    "nombre": "MOCHILA WILSON ID280",
+    "precio": 27900,
+    "foto": "https://i.postimg.cc/7h4jgK5w/mochiw.webp",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 281,
+    "nombre": "MOCHILA WILSON ID281",
+    "precio": 27900,
+    "foto": "https://i.postimg.cc/W46GdScX/mo.webp",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 282,
+    "nombre": "MOCHILA LIVE LOVE PUFFER ID282",
+    "precio": 33600,
+    "foto": "https://i.postimg.cc/QdWQgh15/bv.png",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 283,
+    "nombre": "BOLSO SKORA PUFFER ID283",
+    "precio": 35200,
+    "foto": "https://i.postimg.cc/k5J5JyJ1/bolso.png",
+    "categoria": "BOLSOS",
+    "suspendido": false
+  },
+  {
+    "id": 284,
+    "nombre": "BANDOLERA SKORA VERDE MILITAR ID284",
+    "precio": 31900,
+    "foto": "https://i.postimg.cc/4xC5SYJb/tt.jpg",
+    "categoria": "BANDOLERAS",
+    "suspendido": false
+  },
+  {
+    "id": 285,
+    "nombre": "BANDOLERA SKORA MARRON ID285",
+    "precio": 31900,
+    "foto": "https://i.postimg.cc/J0L4Jjwj/ttt.jpg",
+    "categoria": "BANDOLERAS",
+    "suspendido": false
+  },
+  {
+    "id": 286,
+    "nombre": "BOLSO SKORA TEJIDO ID286",
+    "precio": 26900,
+    "foto": "https://i.postimg.cc/Fszwp791/D-NQ-NP-728424-MLA91614144630-092025-O.webp",
+    "categoria": "BOLSOS",
+    "suspendido": false
+  },
+  {
+    "id": 287,
+    "nombre": "BOLSO SKORA LONA ID287",
+    "precio": 17900,
+    "foto": "https://i.postimg.cc/Dy4Bmsfk/274-41073-original-3-ea8dd9af9e53d9c83817621991015062-480-0.webp",
+    "categoria": "BOLSOS",
+    "suspendido": false
+  },
+  {
+    "id": 288,
+    "nombre": "BOLSO PLAYERO TEJIDO ID288",
+    "precio": 16900,
+    "foto": "https://i.postimg.cc/nrDS8QM6/IMG-20251113-084904.jpg",
+    "categoria": "BOLSOS",
+    "suspendido": false
+  },
+  {
+    "id": 289,
+    "nombre": "CARTERA TRENDY TEJIDO ID289",
+    "precio": 23900,
+    "foto": "https://i.postimg.cc/pXPKMF9d/Captura-de-pantalla-2025-11-06-164826.png",
+    "categoria": "CARTERAS",
+    "suspendido": false
+  },
+  {
+    "id": 290,
+    "nombre": "MOCHILA TRENDY ID290",
+    "precio": 37900,
+    "foto": "https://i.postimg.cc/gjgjWr5h/30057.jpg",
+    "categoria": "MOCHILAS ECOCUERO",
+    "suspendido": false
+  },
+  {
+    "id": 291,
+    "nombre": "MOCHILA TRENDY ID291",
+    "precio": 41900,
+    "foto": "https://i.postimg.cc/kXDXSJzk/Captura-de-pantalla-2025-11-06-152931.png",
+    "categoria": "MOCHILAS ECOCUERO",
+    "suspendido": false
+  },
+  {
+    "id": 292,
+    "nombre": "MOCHILA TRENDY ID292",
+    "precio": 41900,
+    "foto": "https://i.postimg.cc/sfH33Fxq/mocchi.webp",
+    "categoria": "MOCHILAS ECOCUERO",
+    "suspendido": false
+  },
+  {
+    "id": 293,
+    "nombre": "MOCHILA TRENDY ID293",
+    "precio": 41900,
+    "foto": "https://i.postimg.cc/qRMddQdL/images.jpg",
+    "categoria": "MOCHILAS ECOCUERO",
+    "suspendido": false
+  },
+  {
+    "id": 294,
+    "nombre": "RIÑONERA PUFFER ID294",
+    "precio": 19900,
+    "foto": "https://i.postimg.cc/K82TDgbt/rin.png",
+    "categoria": "RIÑONERAS",
+    "suspendido": false
+  },
+  {
+    "id": 295,
+    "nombre": "BANDOLERA SKORA ID295",
+    "precio": 24900,
+    "foto": "https://i.postimg.cc/vTYjnmm9/Captura-de-pantalla-2025-11-06-172939.png",
+    "categoria": "BANDOLERAS",
+    "suspendido": false
+  },
+  {
+    "id": 296,
+    "nombre": "CARTERA TRENDY LONA ID296",
+    "precio": 29900,
+    "foto": "https://i.postimg.cc/XJVxHz0K/llll.webp",
+    "categoria": "CARTERAS",
+    "suspendido": false
+  },
+  {
+    "id": 297,
+    "nombre": "BANDOLERA UNISEX LONA  (COLORES) ID297",
+    "precio": 13990,
+    "foto": "https://i.postimg.cc/4xf6ThSD/uyt.jpg",
+    "categoria": "BANDOLERAS",
+    "suspendido": false
+  },
+  {
+    "id": 298,
+    "nombre": "MOCHILA LONA ID298",
+    "precio": 23000,
+    "foto": "https://i.postimg.cc/yNw3WJL3/dfg.jpg",
+    "categoria": "MOCHILAS URBANAS",
+    "suspendido": false
+  },
+  {
+    "id": 299,
+    "nombre": "RIÑONERA SPORT IMP. ID299",
+    "precio": 13500,
+    "foto": "https://i.postimg.cc/sxX5FFXt/8464d29cc7df414caf8a85ffa4102588.jpg",
+    "categoria": "RIÑONERAS",
+    "suspendido": false
+  },
+  {
+    "id": 300,
+    "nombre": "RIÑONERAS STORT MUJER ID300",
+    "precio": 8980,
+    "foto": "https://i.postimg.cc/4xz7S4Pm/D-NQ-NP-755396-MLA80432143007-112024-O.webp",
+    "categoria": "RIÑONERAS",
+    "suspendido": false
+  },
+  {
+    "id": 301,
+    "nombre": "RIÑONERA SPORT GRANDE VARIOS COLORES  ID301",
+    "precio": 6590,
+    "foto": "https://i.postimg.cc/JnthMRNG/ffff.jpg",
+    "categoria": "RIÑONERAS",
+    "suspendido": false
+  },
+  {
+    "id": 302,
+    "nombre": "LLEVEROS ID302",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/8Px0TGvF/sss.jpg",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 303,
+    "nombre": "LLAVEROS PARA CELULAR ID303",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/c4tF9zzy/ss.jpg",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 304,
+    "nombre": "TOBILLETAS CARACOLES ID304",
+    "precio": 2500,
+    "foto": "https://i.postimg.cc/8Cn7FZmy/IMG-20251213-133324.jpg",
+    "categoria": "ARTICULOS TEMPORALES",
+    "suspendido": false
+  },
+  {
+    "id": 305,
+    "nombre": "TOBILLERAS CARACOLES ID305",
+    "precio": 2500,
+    "foto": "https://i.postimg.cc/vZ0Bj0kt/IMG-20251213-133334.jpg",
+    "categoria": "ARTICULOS TEMPORALES",
+    "suspendido": false
+  },
+  {
+    "id": 306,
+    "nombre": "COLLARES CARACOLES ID306",
+    "precio": 3900,
+    "foto": "https://i.postimg.cc/KjhvLw3S/IMG-20251213-133411.jpg",
+    "categoria": "ARTICULOS TEMPORALES",
+    "suspendido": false
+  },
+  {
+    "id": 307,
+    "nombre": "COLLARES CARACOLES ID307",
+    "precio": 3900,
+    "foto": "https://i.postimg.cc/3wPK5VBK/IMG-20251213-133417.jpg",
+    "categoria": "ARTICULOS TEMPORALES",
     "suspendido": false
   }
 ]
