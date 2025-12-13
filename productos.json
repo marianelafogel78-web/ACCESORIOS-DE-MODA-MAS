@@ -449,18 +449,18 @@
   },
   {
     "id": 63,
-    "nombre": "INVISIBLES CON STRAS X 3 ID63",
+    "nombre": "INVISIBLES CON STRAS X 2 ID63",
     "precio": 1600,
     "foto": "https://i.postimg.cc/jSD5Wnqt/IMG-20251115-180746.jpg",
-    "categoria": "HEBILLAS BLISTER",
+    "categoria": "INVISIBLES",
     "suspendido": false
   },
   {
     "id": 64,
-    "nombre": "INVISIBLES X CARTOS DE 24 ID64",
+    "nombre": "INVISIBLES CARTON DE 24 ID64",
     "precio": 800,
     "foto": "https://i.postimg.cc/FFnXYWYx/IMG-20251115-175232.jpg",
-    "categoria": "HEBILLAS BLISTER",
+    "categoria": "INVISIBLES",
     "suspendido": false
   },
   {
@@ -468,7 +468,7 @@
     "nombre": "INVISIBLES CARTON X48 ID65",
     "precio": 950,
     "foto": "https://i.postimg.cc/x1D7mWnc/IMG-20251115-175211.jpg",
-    "categoria": "HEBILLAS BLISTER",
+    "categoria": "INVISIBLES",
     "suspendido": false
   },
   {
@@ -741,6 +741,1110 @@
     "precio": 1290,
     "foto": "https://i.postimg.cc/GpZcVbDn/IMG-20251108-121537.jpg",
     "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 100,
+    "nombre": "DIJE ALA ID100",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/W1VtvL4b/dijeala.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 101,
+    "nombre": "DIJE CON PERLAS ID101",
+    "precio": 1600,
+    "foto": "https://i.postimg.cc/595ZRZDr/IMG-20251116-125234.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 102,
+    "nombre": "DIJE CON STRAS ID102",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/D05pwKTm/IMG-20251116-125334.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 103,
+    "nombre": "DIJE PICA FLOR ID103",
+    "precio": 2100,
+    "foto": "https://i.postimg.cc/fR12LK63/IMG-20251116-125304.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 104,
+    "nombre": "DIJE CORAZON ID104",
+    "precio": 2100,
+    "foto": "https://i.postimg.cc/2jT0vmsD/IMG-20251116-125404.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 105,
+    "nombre": "DIJE CORAZON C/STRAS ID105",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/NFP8nGt9/IMG-20251116-125444-EDIT.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 106,
+    "nombre": "DIJE STRAS Y PIEDRA ID106",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/Wztg0RZV/IMG-20251116-125507.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 107,
+    "nombre": "DIJE COLA BALLENA ID107",
+    "precio": 1600,
+    "foto": "https://i.postimg.cc/qRDCJm5S/IMG-20251116-125534.jpg",
+    "categoria": "DIJES DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 108,
+    "nombre": "PULSERA ID108",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/9X4B4TYG/IMG-20251116-124949.jpg",
+    "categoria": "PULSERAS FANTASIA",
+    "suspendido": false
+  },
+  {
+    "id": 109,
+    "nombre": "PULSERA ID109",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/MHyM7WGg/IMG-20251116-124958.jpg",
+    "categoria": "PULSERAS FANTASIA",
+    "suspendido": false
+  },
+  {
+    "id": 110,
+    "nombre": "PULSRA110",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/Qd6BkYXF/IMG-20251116-125040.jpg",
+    "categoria": "PULSERAS FANTASIA",
+    "suspendido": false
+  },
+  {
+    "id": 111,
+    "nombre": "PULSERA ID111",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/tCk7pvnv/IMG-20251116-125130-(1).jpg",
+    "categoria": "PULSERAS FANTASIA",
+    "suspendido": false
+  },
+  {
+    "id": 112,
+    "nombre": "PULSERA ID112",
+    "precio": 4000,
+    "foto": "https://i.postimg.cc/Vk5s1f8L/IMG-20251116-124849.jpg",
+    "categoria": "PULSERAS FANTASIA",
+    "suspendido": false
+  },
+  {
+    "id": 113,
+    "nombre": "PULSERA ID113",
+    "precio": 5000,
+    "foto": "https://i.postimg.cc/QNWn2vPm/IMG-20251116-114400.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 114,
+    "nombre": "PULSERA ID114",
+    "precio": 4500,
+    "foto": "https://i.postimg.cc/nzrGGQb8/IMG-20251116-114122.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 115,
+    "nombre": "PULSERA ID115",
+    "precio": 4500,
+    "foto": "https://i.postimg.cc/TP4CSccL/IMG-20251116-114203.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 116,
+    "nombre": "PULSERA ID116",
+    "precio": 5000,
+    "foto": "https://i.postimg.cc/43qQwxJs/IMG-20251116-114300.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 117,
+    "nombre": "PULSERA ID117",
+    "precio": 7200,
+    "foto": "https://i.postimg.cc/nLyqBSk7/IMG-20251116-124528.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 118,
+    "nombre": "PULSERA ID118",
+    "precio": 4600,
+    "foto": "https://i.postimg.cc/xjRb11WG/IMG-20251116-121809.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 119,
+    "nombre": "PILSERA ID119",
+    "precio": 3200,
+    "foto": "https://i.postimg.cc/CKkRThGp/IMG-20251116-121717.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 120,
+    "nombre": "PULSERA ID120",
+    "precio": 4900,
+    "foto": "https://i.postimg.cc/R0YxRK6q/IMG-20251116-121038.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 121,
+    "nombre": "PULSERA ID121",
+    "precio": 6950,
+    "foto": "https://i.postimg.cc/mDnJYsnd/IMG-20251116-121134.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 122,
+    "nombre": "PULSERA ID122",
+    "precio": 3250,
+    "foto": "https://i.postimg.cc/g0Q1RpQ4/IMG-20251116-121247.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 123,
+    "nombre": "PULSERA ID123",
+    "precio": 4000,
+    "foto": "https://i.postimg.cc/yYj5jc2g/IMG-20251116-121325.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 124,
+    "nombre": "PILSERA ID124",
+    "precio": 2550,
+    "foto": "https://i.postimg.cc/L8rV3s42/IMG-20251116-121357.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 125,
+    "nombre": "PULSERA ID125",
+    "precio": 5650,
+    "foto": "https://i.postimg.cc/s2dpZ0KP/IMG-20251116-121435.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 126,
+    "nombre": "PULSERA ID126",
+    "precio": 5650,
+    "foto": "https://i.postimg.cc/dQHr904D/IMG-20251116-121516.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 127,
+    "nombre": "PULSERA ID127",
+    "precio": 4950,
+    "foto": "https://i.postimg.cc/d1WknWRp/IMG-20251116-121546.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 128,
+    "nombre": "PULSERA ID128",
+    "precio": 8000,
+    "foto": "https://i.postimg.cc/LsDn6ybQ/IMG-20251116-121636.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 129,
+    "nombre": "CADENA ID129",
+    "precio": 5250,
+    "foto": "https://i.postimg.cc/KjSz0dkz/IMG-20251116-124627.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 130,
+    "nombre": "CADENA ID130",
+    "precio": 7240,
+    "foto": "https://i.postimg.cc/L53HNhMh/IMG-20251116-124735.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 131,
+    "nombre": "CADENA ID131",
+    "precio": 5540,
+    "foto": "https://i.postimg.cc/jjntBMrN/IMG-20251116-124807.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 132,
+    "nombre": "CADENA ID132",
+    "precio": 6400,
+    "foto": "https://i.postimg.cc/02tvQTk0/IMG-20251116-120329.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 133,
+    "nombre": "CADENA ID133",
+    "precio": 5250,
+    "foto": "https://i.postimg.cc/dVzzZvz0/IMG-20251116-120402.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 134,
+    "nombre": "CADENA ID134",
+    "precio": 4950,
+    "foto": "https://i.postimg.cc/tR2wtFKR/IMG-20251116-120442.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 135,
+    "nombre": "CADENA ID135",
+    "precio": 6650,
+    "foto": "https://i.postimg.cc/j5R3yjvC/IMG-20251116-114502.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 136,
+    "nombre": "CADENA ID136",
+    "precio": 8950,
+    "foto": "https://i.postimg.cc/FRFG7Bsz/IMG-20251116-114546.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 137,
+    "nombre": "CADENA ID137",
+    "precio": 5050,
+    "foto": "https://i.postimg.cc/pX5Ch8x1/IMG-20251116-114620.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 138,
+    "nombre": "CADENA ID138",
+    "precio": 4950,
+    "foto": "https://i.postimg.cc/4d3bJHWC/IMG-20251116-114700.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 139,
+    "nombre": "CADENA ID139",
+    "precio": 4750,
+    "foto": "https://i.postimg.cc/HLYb27Dg/IMG-20251116-114742.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 140,
+    "nombre": "CADENA ID140",
+    "precio": 6500,
+    "foto": "https://i.postimg.cc/yNLFZ7NT/IMG-20251116-114813.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 141,
+    "nombre": "CADENA ID141",
+    "precio": 4760,
+    "foto": "https://i.postimg.cc/g2dRtxX4/IMG-20251116-114857.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 142,
+    "nombre": "CADENA ID142",
+    "precio": 5760,
+    "foto": "https://i.postimg.cc/sx7Qwz30/IMG-20251116-115003.jpg",
+    "categoria": "CADENAS CON DIJE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 143,
+    "nombre": "AROS STRAS 36 PARES ID143",
+    "precio": 12000,
+    "foto": "https://i.postimg.cc/4yQ4Yxf4/IMG-20251115-195643.jpg",
+    "categoria": "AROS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 144,
+    "nombre": "AROS ID144",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/K8XQGcK9/IMG-20251111-161638.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 145,
+    "nombre": "AROS ID145",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/sDWq9N7p/IMG-20251111-161603.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 146,
+    "nombre": "AROS ID146",
+    "precio": 5300,
+    "foto": "https://i.postimg.cc/CK54JRXP/IMG-20251115-203912.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 147,
+    "nombre": "AROS ID147",
+    "precio": 2380,
+    "foto": "https://i.postimg.cc/x1TGTkf1/IMG-20251111-161506.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 148,
+    "nombre": "AROS ID148",
+    "precio": 2380,
+    "foto": "https://i.postimg.cc/dtndXq8p/IMG-20251111-161539.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 149,
+    "nombre": "AROS ID149",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/vHPgh0yB/IMG-20251111-161431.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 150,
+    "nombre": "AROS ID150",
+    "precio": 3500,
+    "foto": "https://i.postimg.cc/wM4qXbm0/IMG-20251111-155052.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 151,
+    "nombre": "AROS ID151",
+    "precio": 3500,
+    "foto": "https://i.postimg.cc/YqJktFfY/IMG-20251111-155209.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 152,
+    "nombre": "AROS ID152",
+    "precio": 2700,
+    "foto": "https://i.postimg.cc/zBXYxF8y/IMG-20251111-155252.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 153,
+    "nombre": "AROS ID153",
+    "precio": 3400,
+    "foto": "https://i.postimg.cc/kgQr9p5R/IMG-20251111-155329.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 154,
+    "nombre": "AROS ID154",
+    "precio": 1700,
+    "foto": "https://i.postimg.cc/6qkSxrJh/IMG-20251111-155449.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 155,
+    "nombre": "AROS ID155",
+    "precio": 2700,
+    "foto": "https://i.postimg.cc/mrdTf5dH/IMG-20251111-155526.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 156,
+    "nombre": "AROS ID156",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/rppLJ9q3/IMG-20251111-155556.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 157,
+    "nombre": "AROS ID157",
+    "precio": 2300,
+    "foto": "https://i.postimg.cc/sDRd8zV6/IMG-20251111-155756.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 158,
+    "nombre": "AROS ID158",
+    "precio": 1700,
+    "foto": "https://i.postimg.cc/ydStQQ2k/IMG-20251111-155829.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 159,
+    "nombre": "AROS ID159",
+    "precio": 2600,
+    "foto": "https://i.postimg.cc/cL4jy4PY/IMG-20251111-155925.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 160,
+    "nombre": "AROS ID160",
+    "precio": 1700,
+    "foto": "https://i.postimg.cc/fLXqj30z/IMG-20251111-160115.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 161,
+    "nombre": "AROS ID161",
+    "precio": 2700,
+    "foto": "https://i.postimg.cc/xT9pM1j2/IMG-20251111-160239.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 162,
+    "nombre": "AROS ID162",
+    "precio": 2700,
+    "foto": "https://i.postimg.cc/HL86dJzh/IMG-20251111-160328.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 163,
+    "nombre": "AROS ID163",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/tRN2qGdH/IMG-20251111-160354.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 164,
+    "nombre": "AROS ID164",
+    "precio": 2700,
+    "foto": "https://i.postimg.cc/ZRhxmw0D/IMG-20251111-160503.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 165,
+    "nombre": "AROS ID165",
+    "precio": 2700,
+    "foto": "https://i.postimg.cc/MZ5mkbwF/IMG-20251111-160636.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 166,
+    "nombre": "AROS ID166",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/ydBctWbz/IMG-20251111-161345.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 167,
+    "nombre": "AROS ID167",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/jd9NKMF9/IMG-20251111-160723.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 168,
+    "nombre": "AROS ID168",
+    "precio": 1930,
+    "foto": "https://i.postimg.cc/hjpzYsmk/IMG-20251111-160818.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 169,
+    "nombre": "AROS ID169",
+    "precio": 2450,
+    "foto": "https://i.postimg.cc/KYmYyLx7/IMG-20251111-160846.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 170,
+    "nombre": "AROS ID170",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/XvNyktGJ/IMG-20251111-160925.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 171,
+    "nombre": "AROS TAMAÑOS S/M/L ID171",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/FzSfK4qw/IMG-20251111-161035.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 172,
+    "nombre": "AROS ID172",
+    "precio": 2500,
+    "foto": "https://i.postimg.cc/pd1yYrMQ/IMG-20251111-161108.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 173,
+    "nombre": "AROS ID173",
+    "precio": 2600,
+    "foto": "https://i.postimg.cc/fyYLNvS4/IMG-20251111-161158.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 174,
+    "nombre": "AROS ID174",
+    "precio": 2500,
+    "foto": "https://i.postimg.cc/HLjkxm8t/IMG-20251111-161234.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 175,
+    "nombre": "AROS ID175",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/7LpwZ2kv/IMG-20251115-202851.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 176,
+    "nombre": "AROS ID176",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/sXdCrCYz/IMG-20251115-202620.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 177,
+    "nombre": "AROS PEQUEÑOS ID177",
+    "precio": 1850,
+    "foto": "https://i.postimg.cc/3xds0x9d/IMG-20251115-202649.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 178,
+    "nombre": "AROS ID178",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/HsjZBP5G/IMG-20251115-203048.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 179,
+    "nombre": "AROAS ID179",
+    "precio": 1250,
+    "foto": "https://i.postimg.cc/1zKr9p6w/IMG-20251115-203359.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 180,
+    "nombre": "AROS ID180",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/PJ0m6KGK/IMG-20251115-203631.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 181,
+    "nombre": "AROS ID181",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/G367gxjw/IMG-20251115-203728.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 182,
+    "nombre": "AROS ID182",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/wjQwv8Yq/IMG-20251115-203811.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 183,
+    "nombre": "AROS ID183",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/KzRfJ1kt/IMG-20251115-203838.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 184,
+    "nombre": "AROS GRANDES ID184",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/XJCFrdBG/IMG-20251111-161904.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 185,
+    "nombre": "AROS ID185",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/Dwpb5Bqj/IMG-20251111-161815.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 186,
+    "nombre": "AROS STRAS ID186",
+    "precio": 5400,
+    "foto": "https://i.postimg.cc/gjKxhDzL/IMG-20251111-162114.jpg",
+    "categoria": "AROS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 187,
+    "nombre": "COLITAS X 2 ID187",
+    "precio": 900,
+    "foto": "https://i.postimg.cc/dVsxGtB4/IMG-20251115-180600.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 188,
+    "nombre": "COLITAS X2 ID188",
+    "precio": 900,
+    "foto": "https://i.postimg.cc/Nf4NGvcB/IMG-20251115-181401.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 189,
+    "nombre": "COLITAS X 6 ID189",
+    "precio": 590,
+    "foto": "https://i.postimg.cc/rF8JPZrF/IMG-20251115-180437.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 190,
+    "nombre": "COLITAS X 3 ID190",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/hPPLrJkG/IMG-20251115-180357.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 191,
+    "nombre": "COLITAS X 3 ID191",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/59pv646S/IMG-20251115-181143.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 192,
+    "nombre": "HEBILLAS TITAC X 5 PARES ID192",
+    "precio": 8200,
+    "foto": "https://i.postimg.cc/wjDjR2wj/IMG-20251108-124849.jpg",
+    "categoria": "HEBILLAS TICTAC BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 193,
+    "nombre": "HEBILLAS X 10 ID193",
+    "precio": 1400,
+    "foto": "https://i.postimg.cc/bYMy6WM0/IMG-20251115-175310.jpg",
+    "categoria": "HEBILLAS TICTAC BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 194,
+    "nombre": "COLITAS X 5 PARES ID194",
+    "precio": 3900,
+    "foto": "https://i.postimg.cc/wTL1D9vH/IMG-20251108-125059.jpg",
+    "categoria": "COLITAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 195,
+    "nombre": "BROCHES PEQ. ID195",
+    "precio": 700,
+    "foto": "https://i.postimg.cc/zGf18k4t/IMG-20251108-112103.jpg",
+    "categoria": "BROCHES",
+    "suspendido": false
+  },
+  {
+    "id": 196,
+    "nombre": "BROCHES PEQ, ID196",
+    "precio": 700,
+    "foto": "https://i.postimg.cc/QdCvRdW4/IMG-20251108-112008.jpg",
+    "categoria": "BROCHES",
+    "suspendido": false
+  },
+  {
+    "id": 197,
+    "nombre": "BROCHES ID197",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/FKcC4dst/IMG-20251115-181306.jpg",
+    "categoria": "BROCHES GRANDES",
+    "suspendido": false
+  },
+  {
+    "id": 198,
+    "nombre": "BROCHES ID198",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/Kvw58GHs/IMG-20251115-180935.jpg",
+    "categoria": "BROCHES GRANDES",
+    "suspendido": false
+  },
+  {
+    "id": 199,
+    "nombre": "BROCHES ID199",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/bYMnQ69S/IMG-20251115-181004.jpg",
+    "categoria": "BROCHES GRANDES",
+    "suspendido": false
+  },
+  {
+    "id": 200,
+    "nombre": "GORRAS VARIOS MODELOS ID200",
+    "precio": 7200,
+    "foto": "https://i.postimg.cc/1RYdDZdK/IMG-20251113-084239.jpg",
+    "categoria": "GORRAS",
+    "suspendido": false
+  },
+  {
+    "id": 201,
+    "nombre": "PILUSO T.GRANDE ID201",
+    "precio": 6900,
+    "foto": "https://i.postimg.cc/63bMVdMC/IMG-20251113-084351.jpg",
+    "categoria": "GORRAS",
+    "suspendido": false
+  },
+  {
+    "id": 202,
+    "nombre": "PILUSO NIÑOS VARISO COLORES ID202",
+    "precio": 2500,
+    "foto": "https://i.postimg.cc/x8b3KBJr/piluso.jpg",
+    "categoria": "GORRAS",
+    "suspendido": false
+  },
+  {
+    "id": 203,
+    "nombre": "KIT ALICATES ID203",
+    "precio": 3500,
+    "foto": "https://i.postimg.cc/bwLVNc15/IMG-20251115-181703.jpg",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 204,
+    "nombre": "TERMINAL DE TRENZAS ID204",
+    "precio": 1,
+    "foto": "https://i.postimg.cc/5yqq7L3k/IMG-20251112-205227.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 205,
+    "nombre": "EXTENSION CON LUZ ID205",
+    "precio": 2100,
+    "foto": "https://i.postimg.cc/gksH3yrZ/IMG-20251108-105607.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 206,
+    "nombre": "KIT ALICATES EN BLISTER ID206",
+    "precio": 2490,
+    "foto": "https://i.postimg.cc/rFwQnZB9/IMG-20251115-181841.jpg",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 207,
+    "nombre": "ARQUEADOR DE PESTAÑAS ID207",
+    "precio": 1300,
+    "foto": "https://i.postimg.cc/MHKbLXF6/cejaas.png",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 208,
+    "nombre": "PERFILADOR X 3 ID208",
+    "precio": 1490,
+    "foto": "https://i.postimg.cc/kM1x4JHX/perfilsdor.png",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 209,
+    "nombre": "PEINES X 1 ID209",
+    "precio": 1450,
+    "foto": "https://i.postimg.cc/28LBS4vT/IMG-20251115-181917.jpg",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 210,
+    "nombre": "PEINE X 2 ID210",
+    "precio": 2050,
+    "foto": "https://i.postimg.cc/fytkkN35/IMG-20251115-182025.jpg",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 211,
+    "nombre": "PEINE X 4 ID211",
+    "precio": 3350,
+    "foto": "https://i.postimg.cc/qBzwVDBk/peine.png",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 212,
+    "nombre": "LIMA DE UÑAS X 1 ID212",
+    "precio": 450,
+    "foto": "https://i.postimg.cc/j59zSKqr/limas.png",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 213,
+    "nombre": "MANTECA DE CACAO ID213",
+    "precio": 1600,
+    "foto": "https://i.postimg.cc/9Mv7jpbk/mant.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 214,
+    "nombre": "POLVO DE ADA ID214",
+    "precio": 2200,
+    "foto": "https://i.postimg.cc/9f0RRSnM/yy.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 215,
+    "nombre": "LABIAL LIQUIDO ID215",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/tJ3YGHYx/uu.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 216,
+    "nombre": "LABIAL TEJAR X 1 ID216",
+    "precio": 990,
+    "foto": "https://i.postimg.cc/kXC2FDpY/hh.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 217,
+    "nombre": "BRILLO LABIAL INFANTIL ID217",
+    "precio": 2400,
+    "foto": "https://i.postimg.cc/QMvtBM7z/fg.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 218,
+    "nombre": "DELINEADOR X 12 UNI. ID218",
+    "precio": 5900,
+    "foto": "https://i.postimg.cc/tCD43kP4/mm.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 219,
+    "nombre": "DELINEADOR C/SACAPUNTAS X 12 UNI.ID219",
+    "precio": 5900,
+    "foto": "https://i.postimg.cc/d0ZQKKfd/nm.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 220,
+    "nombre": "MASCARA DE PESTAÑAS X 1 ID220",
+    "precio": 3000,
+    "foto": "https://i.postimg.cc/zXdqbBZB/oo.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 221,
+    "nombre": "SOMBRA ID221",
+    "precio": 4400,
+    "foto": "https://i.postimg.cc/PxzjtfQ8/hhl.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 222,
+    "nombre": "SOMBRA ID222",
+    "precio": 5900,
+    "foto": "https://i.postimg.cc/L6spppYd/ll.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 223,
+    "nombre": "SOMBRAID223",
+    "precio": 6990,
+    "foto": "https://i.postimg.cc/HxmqPD1s/ui.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 224,
+    "nombre": "ESMALTE DE UÑAS ID224",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/Dy0tNPH3/esmaltes.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 225,
+    "nombre": "BRILLOS DECORATIVOS ROSTRO ID225",
+    "precio": 6000,
+    "foto": "https://i.postimg.cc/xCg4xXP3/brillo.png",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 226,
+    "nombre": "BRILLOS ROSTRO ID226",
+    "precio": 5900,
+    "foto": "https://i.postimg.cc/Y2f6wN6N/IMG-20251115-175138.jpg",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 227,
+    "nombre": "UÑAS POSTIZAS X BLISTER DE 12 ID227",
+    "precio": 5500,
+    "foto": "https://i.postimg.cc/d0w6bq39/unas.png",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 228,
+    "nombre": "UÑAS POSTIZAS DECORADAS X 1 ID228",
+    "precio": 1400,
+    "foto": "https://i.postimg.cc/9fLk14bF/unaspos.png",
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false
+  },
+  {
+    "id": 229,
+    "nombre": "LLAVEROS X 1 ID229",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/3wfLmsrV/IMG-20251115-175548.jpg",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 230,
+    "nombre": "LLAVEROS X1 ID230",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/7P2BJtFs/IMG-20251115-175708.jpg",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 231,
+    "nombre": "LLAVEROS X 1 ID231",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/26pZsG2s/ee.png",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 232,
+    "nombre": "LLAVEROSX 1 ID232",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/0jnKJsxB/aa.png",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 233,
+    "nombre": "LLAVAEROS X 1 ID233",
+    "precio": 1500,
+    "foto": "https://i.postimg.cc/k4d21452/ss.png",
+    "categoria": "LLAVEROS",
+    "suspendido": false
+  },
+  {
+    "id": 234,
+    "nombre": "BILLETERAS EN CAJA ID234",
+    "precio": 8000,
+    "foto": "https://i.postimg.cc/X7T4cPqj/xx.png",
+    "categoria": "ACCESORIOS DE HOMBRE",
+    "suspendido": false
+  },
+  {
+    "id": 235,
+    "nombre": "PORTA TARJETAS ECOCUERO ID235",
+    "precio": 5700,
+    "foto": "https://i.postimg.cc/KzY6y7jM/d.png",
+    "categoria": "ACCESORIOS DE HOMBRE",
+    "suspendido": false
+  },
+  {
+    "id": 236,
+    "nombre": "BILLETRAS ID236",
+    "precio": 5000,
+    "foto": "https://i.postimg.cc/YqgqV7JG/xc.png",
+    "categoria": "ACCESORIOS DE HOMBRE",
+    "suspendido": false
+  },
+  {
+    "id": 237,
+    "nombre": "CINTOS ID237",
+    "precio": 5700,
+    "foto": "https://i.postimg.cc/TwpTcvVh/q.png",
+    "categoria": "ACCESORIOS DE HOMBRE",
     "suspendido": false
   }
 ]
