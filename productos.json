@@ -116,7 +116,7 @@
     "nombre": "BLISTER X 6 IRROMPIBLES ID21",
     "precio": 3690,
     "foto": "https://i.postimg.cc/V6XZYSBM/IMG-20251108-114556.jpg",
-    "categoria": "BROCHES BLISTER",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -124,23 +124,23 @@
     "nombre": "BLISTER X 12 IRROMPIBLES ID22",
     "precio": 3690,
     "foto": "https://i.postimg.cc/P52jj7f6/IMG-20251108-114537.jpg",
-    "categoria": "BROCHES BLISTER",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
     "id": 23,
-    "nombre": "BROCHES X 6 ID23",
+    "nombre": "BLISTER X 6 PEQUEÑOS ID23",
     "precio": 1950,
     "foto": "https://i.postimg.cc/5Ny5gYYK/IMG-20251108-110807.jpg",
-    "categoria": "BROCHES BLISTER",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
     "id": 24,
-    "nombre": "BROCHES X 6 ID24",
+    "nombre": "BLISTER X 6 PEQUEÑOS ID24",
     "precio": 1950,
     "foto": "https://i.postimg.cc/vH499Jkh/IMG-20251108-110903.jpg",
-    "categoria": "BROCHES BLISTER",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -148,7 +148,7 @@
     "nombre": "BLISTER X 6 COLORES  ID25",
     "precio": 2450,
     "foto": "https://i.postimg.cc/Dy4JmqbF/IMG-20251108-110928.jpg",
-    "categoria": "BROCHES BLISTER",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -156,15 +156,15 @@
     "nombre": "BROCHES PEQUEÑOS X 3 ID26",
     "precio": 1300,
     "foto": "https://i.postimg.cc/8cV56WV7/IMG-20251108-111043.jpg",
-    "categoria": "BROCHES",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
     "id": 27,
-    "nombre": "BROCHES METAL STRAS PEQUEÑOS ID27",
+    "nombre": "BROCHES METAL STRAS PEQ. X1 ID27",
     "precio": 950,
     "foto": "https://i.postimg.cc/RVhrThVV/IMG-20251108-112409.jpg",
-    "categoria": "BROCHES METAL",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -196,7 +196,7 @@
     "nombre": "HEBILLAS TICTAC X 5 PARES ID31",
     "precio": 8200,
     "foto": "https://i.postimg.cc/TPY4JY6C/IMG-20251115-180235.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -204,7 +204,7 @@
     "nombre": "HEBILLAS TICTAC X 5 PARES ID32",
     "precio": 2800,
     "foto": "https://i.postimg.cc/Dy0Vc0yj/IMG-20251108-125223.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -212,15 +212,15 @@
     "nombre": "HEBILLAS TICTAC X 5 PARES ID33",
     "precio": 2200,
     "foto": "https://i.postimg.cc/m25vp4t8/IMG-20251108-125256.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
     "id": 34,
-    "nombre": "BROCHE PEQUEÑO ID34",
+    "nombre": "BROCHE PEQ. X1 ID34",
     "precio": 1500,
     "foto": "https://i.postimg.cc/jdnTbCVF/IMG-20251108-111212.jpg",
-    "categoria": "BROCHES",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -372,7 +372,7 @@
     "nombre": "HEBILLAS TICTAC X 5 PARES ID53",
     "precio": 5700,
     "foto": "https://i.postimg.cc/LXBWRY2w/IMG-20251115-180257.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -380,7 +380,7 @@
     "nombre": "HEBILLAS TICTAC X 5 PARES ID54",
     "precio": 5700,
     "foto": "https://i.postimg.cc/6qPfNt2S/IMG-20251115-180311.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -388,7 +388,7 @@
     "nombre": "HEBILLAS TITAC X 5 PARES ID55",
     "precio": 5700,
     "foto": "https://i.postimg.cc/SN8gpYdr/IMG-20251115-180238.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -428,7 +428,7 @@
     "nombre": "HEBILLAS X 5X3 ID60",
     "precio": 5700,
     "foto": "https://i.postimg.cc/HnMzskJf/IMG-20251115-175355.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "",
     "suspendido": false
   },
   {
@@ -452,7 +452,7 @@
     "nombre": "INVISIBLES CON STRAS X 2 ID63",
     "precio": 1600,
     "foto": "https://i.postimg.cc/jSD5Wnqt/IMG-20251115-180746.jpg",
-    "categoria": "INVISIBLES",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -460,7 +460,7 @@
     "nombre": "INVISIBLES CARTON DE 24 ID64",
     "precio": 800,
     "foto": "https://i.postimg.cc/FFnXYWYx/IMG-20251115-175232.jpg",
-    "categoria": "INVISIBLES",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -468,7 +468,7 @@
     "nombre": "INVISIBLES CARTON X48 ID65",
     "precio": 950,
     "foto": "https://i.postimg.cc/x1D7mWnc/IMG-20251115-175211.jpg",
-    "categoria": "INVISIBLES",
+    "categoria": "HEBILLAS BLISTER",
     "suspendido": false
   },
   {
@@ -812,7 +812,7 @@
     "nombre": "PULSERA ID108",
     "precio": 2200,
     "foto": "https://i.postimg.cc/9X4B4TYG/IMG-20251116-124949.jpg",
-    "categoria": "PULSERAS FANTASIA",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -820,7 +820,7 @@
     "nombre": "PULSERA ID109",
     "precio": 2200,
     "foto": "https://i.postimg.cc/MHyM7WGg/IMG-20251116-124958.jpg",
-    "categoria": "PULSERAS FANTASIA",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -828,7 +828,7 @@
     "nombre": "PULSRA110",
     "precio": 2200,
     "foto": "https://i.postimg.cc/Qd6BkYXF/IMG-20251116-125040.jpg",
-    "categoria": "PULSERAS FANTASIA",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -836,7 +836,7 @@
     "nombre": "PULSERA ID111",
     "precio": 2200,
     "foto": "https://i.postimg.cc/tCk7pvnv/IMG-20251116-125130-(1).jpg",
-    "categoria": "PULSERAS FANTASIA",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -1484,7 +1484,7 @@
     "nombre": "HEBILLAS TITAC X 5 PARES ID192",
     "precio": 8200,
     "foto": "https://i.postimg.cc/wjDjR2wj/IMG-20251108-124849.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "COLITAS BLISTER",
     "suspendido": false
   },
   {
@@ -1492,7 +1492,7 @@
     "nombre": "HEBILLAS X 10 ID193",
     "precio": 1400,
     "foto": "https://i.postimg.cc/bYMy6WM0/IMG-20251115-175310.jpg",
-    "categoria": "HEBILLAS TICTAC BLISTER",
+    "categoria": "",
     "suspendido": false
   },
   {
@@ -1508,7 +1508,7 @@
     "nombre": "BROCHES PEQ. ID195",
     "precio": 700,
     "foto": "https://i.postimg.cc/zGf18k4t/IMG-20251108-112103.jpg",
-    "categoria": "BROCHES",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -1516,7 +1516,7 @@
     "nombre": "BROCHES PEQ, ID196",
     "precio": 700,
     "foto": "https://i.postimg.cc/QdCvRdW4/IMG-20251108-112008.jpg",
-    "categoria": "BROCHES",
+    "categoria": "BROCHES PEQUEÑOS",
     "suspendido": false
   },
   {
@@ -2132,7 +2132,7 @@
     "nombre": "MOCHILA INF. VERDE MILITAR ID273",
     "precio": 36300,
     "foto": "https://i.postimg.cc/QCh3N4mr/mochila.png",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2140,7 +2140,7 @@
     "nombre": "MOCHILA INF. NEGRA ID274",
     "precio": 36300,
     "foto": "https://i.postimg.cc/yYFH5SmW/mochi.jpg",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2148,7 +2148,7 @@
     "nombre": "MOCHILA WONDER PORTA MATE/NOTEBOOK ID275",
     "precio": 39950,
     "foto": "https://i.postimg.cc/jdT9D3fN/rr.webp",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2156,7 +2156,7 @@
     "nombre": "MOCHILA GO PORTA MATE/NOTEBOOK ID276",
     "precio": 39950,
     "foto": "https://i.postimg.cc/90krnwZb/kk.jpg",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2164,7 +2164,7 @@
     "nombre": "MOCHILA INF. VERDE MILITAR ID277",
     "precio": 45900,
     "foto": "https://i.postimg.cc/dV2Sw230/e.webp",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2172,7 +2172,7 @@
     "nombre": "MOCHILA TRENDY ID278",
     "precio": 36900,
     "foto": "https://i.postimg.cc/2SGMndYC/ff.webp",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2180,7 +2180,7 @@
     "nombre": "MOCHILA EVERLAST ID278",
     "precio": 29990,
     "foto": "https://i.postimg.cc/NjF7PRTr/mm.webp",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2188,7 +2188,7 @@
     "nombre": "MOCHILA WILSON ID280",
     "precio": 27900,
     "foto": "https://i.postimg.cc/7h4jgK5w/mochiw.webp",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2196,7 +2196,7 @@
     "nombre": "MOCHILA WILSON ID281",
     "precio": 27900,
     "foto": "https://i.postimg.cc/W46GdScX/mo.webp",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2204,7 +2204,7 @@
     "nombre": "MOCHILA LIVE LOVE PUFFER ID282",
     "precio": 33600,
     "foto": "https://i.postimg.cc/QdWQgh15/bv.png",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2212,7 +2212,7 @@
     "nombre": "BOLSO SKORA PUFFER ID283",
     "precio": 35200,
     "foto": "https://i.postimg.cc/k5J5JyJ1/bolso.png",
-    "categoria": "BOLSOS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2220,7 +2220,7 @@
     "nombre": "BANDOLERA SKORA VERDE MILITAR ID284",
     "precio": 31900,
     "foto": "https://i.postimg.cc/4xC5SYJb/tt.jpg",
-    "categoria": "BANDOLERAS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2228,7 +2228,7 @@
     "nombre": "BANDOLERA SKORA MARRON ID285",
     "precio": 31900,
     "foto": "https://i.postimg.cc/J0L4Jjwj/ttt.jpg",
-    "categoria": "BANDOLERAS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2236,7 +2236,7 @@
     "nombre": "BOLSO SKORA TEJIDO ID286",
     "precio": 26900,
     "foto": "https://i.postimg.cc/Fszwp791/D-NQ-NP-728424-MLA91614144630-092025-O.webp",
-    "categoria": "BOLSOS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2244,7 +2244,7 @@
     "nombre": "BOLSO SKORA LONA ID287",
     "precio": 17900,
     "foto": "https://i.postimg.cc/Dy4Bmsfk/274-41073-original-3-ea8dd9af9e53d9c83817621991015062-480-0.webp",
-    "categoria": "BOLSOS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2252,7 +2252,7 @@
     "nombre": "BOLSO PLAYERO TEJIDO ID288",
     "precio": 16900,
     "foto": "https://i.postimg.cc/nrDS8QM6/IMG-20251113-084904.jpg",
-    "categoria": "BOLSOS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2268,7 +2268,7 @@
     "nombre": "MOCHILA TRENDY ID290",
     "precio": 37900,
     "foto": "https://i.postimg.cc/gjgjWr5h/30057.jpg",
-    "categoria": "MOCHILAS ECOCUERO",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2276,7 +2276,7 @@
     "nombre": "MOCHILA TRENDY ID291",
     "precio": 41900,
     "foto": "https://i.postimg.cc/kXDXSJzk/Captura-de-pantalla-2025-11-06-152931.png",
-    "categoria": "MOCHILAS ECOCUERO",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2284,7 +2284,7 @@
     "nombre": "MOCHILA TRENDY ID292",
     "precio": 41900,
     "foto": "https://i.postimg.cc/sfH33Fxq/mocchi.webp",
-    "categoria": "MOCHILAS ECOCUERO",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2292,7 +2292,7 @@
     "nombre": "MOCHILA TRENDY ID293",
     "precio": 41900,
     "foto": "https://i.postimg.cc/qRMddQdL/images.jpg",
-    "categoria": "MOCHILAS ECOCUERO",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2300,7 +2300,7 @@
     "nombre": "RIÑONERA PUFFER ID294",
     "precio": 19900,
     "foto": "https://i.postimg.cc/K82TDgbt/rin.png",
-    "categoria": "RIÑONERAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2308,7 +2308,7 @@
     "nombre": "BANDOLERA SKORA ID295",
     "precio": 24900,
     "foto": "https://i.postimg.cc/vTYjnmm9/Captura-de-pantalla-2025-11-06-172939.png",
-    "categoria": "BANDOLERAS",
+    "categoria": "CARTERAS",
     "suspendido": false
   },
   {
@@ -2324,7 +2324,7 @@
     "nombre": "BANDOLERA UNISEX LONA  (COLORES) ID297",
     "precio": 13990,
     "foto": "https://i.postimg.cc/4xf6ThSD/uyt.jpg",
-    "categoria": "BANDOLERAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2332,7 +2332,7 @@
     "nombre": "MOCHILA LONA ID298",
     "precio": 23000,
     "foto": "https://i.postimg.cc/yNw3WJL3/dfg.jpg",
-    "categoria": "MOCHILAS URBANAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2340,7 +2340,7 @@
     "nombre": "RIÑONERA SPORT IMP. ID299",
     "precio": 13500,
     "foto": "https://i.postimg.cc/sxX5FFXt/8464d29cc7df414caf8a85ffa4102588.jpg",
-    "categoria": "RIÑONERAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2348,7 +2348,7 @@
     "nombre": "RIÑONERAS STORT MUJER ID300",
     "precio": 8980,
     "foto": "https://i.postimg.cc/4xz7S4Pm/D-NQ-NP-755396-MLA80432143007-112024-O.webp",
-    "categoria": "RIÑONERAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2356,7 +2356,7 @@
     "nombre": "RIÑONERA SPORT GRANDE VARIOS COLORES  ID301",
     "precio": 6590,
     "foto": "https://i.postimg.cc/JnthMRNG/ffff.jpg",
-    "categoria": "RIÑONERAS",
+    "categoria": "MOCHILAS Y RIÑOÑERAS",
     "suspendido": false
   },
   {
@@ -2380,7 +2380,7 @@
     "nombre": "TOBILLETAS CARACOLES ID304",
     "precio": 2500,
     "foto": "https://i.postimg.cc/8Cn7FZmy/IMG-20251213-133324.jpg",
-    "categoria": "ARTICULOS TEMPORALES",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -2388,7 +2388,7 @@
     "nombre": "TOBILLERAS CARACOLES ID305",
     "precio": 2500,
     "foto": "https://i.postimg.cc/vZ0Bj0kt/IMG-20251213-133334.jpg",
-    "categoria": "ARTICULOS TEMPORALES",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -2396,7 +2396,7 @@
     "nombre": "COLLARES CARACOLES ID306",
     "precio": 3900,
     "foto": "https://i.postimg.cc/KjhvLw3S/IMG-20251213-133411.jpg",
-    "categoria": "ARTICULOS TEMPORALES",
+    "categoria": "COLLARES Y PULSERAS",
     "suspendido": false
   },
   {
@@ -2404,7 +2404,231 @@
     "nombre": "COLLARES CARACOLES ID307",
     "precio": 3900,
     "foto": "https://i.postimg.cc/3wPK5VBK/IMG-20251213-133417.jpg",
-    "categoria": "ARTICULOS TEMPORALES",
+    "categoria": "COLLARES Y PULSERAS",
+    "suspendido": false
+  },
+  {
+    "id": 308,
+    "nombre": "HEBILLAS TICTAC MED. ID308",
+    "precio": 1300,
+    "foto": "https://i.postimg.cc/gJPmCfj2/titac.jpg",
+    "categoria": "HEBILLAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 309,
+    "nombre": "HEBILLAS TICTAC MED. ID309",
+    "precio": 1300,
+    "foto": "https://i.postimg.cc/7YyGDWGH/titaceste.jpg",
+    "categoria": "HEBILLAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 310,
+    "nombre": "HEBILLA TICTAC MED. ID310",
+    "precio": 1300,
+    "foto": "https://i.postimg.cc/C1khQw4r/titacflor.jpg",
+    "categoria": "HEBILLAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 311,
+    "nombre": "HEBILLA TICTAC ID311",
+    "precio": 1300,
+    "foto": "https://i.postimg.cc/W4JTdsCB/titacfru.jpg",
+    "categoria": "HEBILLAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 312,
+    "nombre": "AROS CEREZA X 24 ID312",
+    "precio": 15600,
+    "foto": "https://i.postimg.cc/C1gTdkj4/arosbliscereza.jpg",
+    "categoria": "AROS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 313,
+    "nombre": "COLITAS X 6 ID313",
+    "precio": 590,
+    "foto": "https://i.postimg.cc/vZf0Tj3d/colitanerbco.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 314,
+    "nombre": "COLITAS X3 ID314",
+    "precio": 900,
+    "foto": "https://i.postimg.cc/QNvPMphh/colitastitch.jpg",
+    "categoria": "COLITAS",
+    "suspendido": false
+  },
+  {
+    "id": 315,
+    "nombre": "COLITAS X 5 PARES ID315",
+    "precio": 4900,
+    "foto": "https://i.postimg.cc/0j9L8v7V/colitacorazon.jpg",
+    "categoria": "COLITAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 316,
+    "nombre": "COLITAS X 5 PARES ID316",
+    "precio": 4900,
+    "foto": "https://i.postimg.cc/MTSLDw3Q/colitacuocke.jpg",
+    "categoria": "COLITAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 317,
+    "nombre": "COLITAS X 5 PARES ID317",
+    "precio": 4900,
+    "foto": "https://i.postimg.cc/tRDchL3h/colitahelado.jpg",
+    "categoria": "COLITAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 318,
+    "nombre": "COLITAS X 5 PARES ID318",
+    "precio": 4900,
+    "foto": "https://i.postimg.cc/B64hFgtv/colitamariposa.jpg",
+    "categoria": "COLITAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 319,
+    "nombre": "COLITAS X 5 PARES ID319",
+    "precio": 4900,
+    "foto": "https://i.postimg.cc/y6ffJ0K0/colotafrutilla.jpg",
+    "categoria": "COLITAS BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 320,
+    "nombre": "BROCHES DE METAL PEQ, X1 ID320",
+    "precio": 900,
+    "foto": "https://i.postimg.cc/fbjCM95k/hebillametalformas.jpg",
+    "categoria": "BROCHES PEQUEÑOS",
+    "suspendido": false
+  },
+  {
+    "id": 321,
+    "nombre": "BROCHE METAL MED. ID321",
+    "precio": 1100,
+    "foto": "https://i.postimg.cc/vHgvcjXX/hebillametalstras.jpg",
+    "categoria": "BROCHES MEDIANOS",
+    "suspendido": false
+  },
+  {
+    "id": 322,
+    "nombre": "BROCHES MINIS X 6 ID322",
+    "precio": 1300,
+    "foto": "https://i.postimg.cc/Ssx6qtJr/minibroches.jpg",
+    "categoria": "BROCHES BLISTER",
+    "suspendido": false
+  },
+  {
+    "id": 323,
+    "nombre": "LABIAL BRASILERO X 12 ID323",
+    "precio": 9990,
+    "foto": "https://i.postimg.cc/bJrt4DBB/labialbrasilero.jpg",
+    "categoria": "MAQUILLAJES",
+    "suspendido": false
+  },
+  {
+    "id": 324,
+    "nombre": "PULSERA ESCLAVA ID224",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/fRv5Nd80/esclavacorazon.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 325,
+    "nombre": "PULSERA ESCLAVA ID225",
+    "precio": 2000,
+    "foto": "https://i.postimg.cc/VvMBH0S8/esclavaestrella.jpg",
+    "categoria": "PULSERAS DE ACERO",
+    "suspendido": false
+  },
+  {
+    "id": 326,
+    "nombre": "BROCHE FLOR ID226",
+    "precio": 2490,
+    "foto": "https://i.postimg.cc/cJH7GbK9/broche.jpg",
+    "categoria": "BROCHES GRANDES",
+    "suspendido": false
+  },
+  {
+    "id": 327,
+    "nombre": "BROCHE GDE. ID227",
+    "precio": 2300,
+    "foto": "https://i.postimg.cc/TY6r3wLm/broche1.jpg",
+    "categoria": "BROCHES GRANDES",
+    "suspendido": false
+  },
+  {
+    "id": 328,
+    "nombre": "GORRA ID328",
+    "precio": 7900,
+    "foto": "https://i.postimg.cc/nrY9D4jD/gorracorazon.jpg",
+    "categoria": "GORRAS",
+    "suspendido": false
+  },
+  {
+    "id": 329,
+    "nombre": "GORRA ID329",
+    "precio": 7900,
+    "foto": "https://i.postimg.cc/0NTzXW7D/gorramono.jpg",
+    "categoria": "GORRAS",
+    "suspendido": false
+  },
+  {
+    "id": 330,
+    "nombre": "LENTES DE AUMENTO ID330",
+    "precio": 2600,
+    "foto": "https://i.postimg.cc/nhMMFbk2/lentesaumento.jpg",
+    "categoria": "LENTES",
+    "suspendido": false
+  },
+  {
+    "id": 331,
+    "nombre": "LENTES DE SOL VARIOS MODELOS. ID331",
+    "precio": 3100,
+    "foto": "https://i.postimg.cc/L6Q60QpS/lentessol.jpg",
+    "categoria": "LENTES",
+    "suspendido": false
+  },
+  {
+    "id": 332,
+    "nombre": "CHOKER CORDON ID332",
+    "precio": 3100,
+    "foto": "https://i.postimg.cc/52N11Bf8/collar.jpg",
+    "categoria": "COLLARES Y PULSERAS",
+    "suspendido": false
+  },
+  {
+    "id": 333,
+    "nombre": "CHOKER CORDON ID333",
+    "precio": 3100,
+    "foto": "https://i.postimg.cc/YSMFtyhn/collar1.jpg",
+    "categoria": "COLLARES Y PULSERAS",
+    "suspendido": false
+  },
+  {
+    "id": 334,
+    "nombre": "CHOKER CORDON ID334",
+    "precio": 3100,
+    "foto": "https://i.postimg.cc/L8b5n96K/collar3.jpg",
+    "categoria": "COLLARES Y PULSERAS",
+    "suspendido": false
+  },
+  {
+    "id": 335,
+    "nombre": "AROS PERLA X 36 PARES ID335",
+    "precio": 7500,
+    "foto": "https://i.postimg.cc/CMc9kzDQ/arosperla.jpg",
+    "categoria": "AROS BLISTER",
     "suspendido": false
   }
 ]
