@@ -2524,8 +2524,9 @@
     "nombre": "CEPILLOS VARIOS COLORES ",
     "precio": 5040,
     "foto": "https://i.postimg.cc/Pq12Y5qF/CEPILLOS.png",
-    "categoria": "VARIOS",
-    "suspendido": false
+    "categoria": "CUIDADO PERSONAL",
+    "suspendido": false,
+    "fechaIngreso": 1780428823292
   },
   {
     "id": 1777768262610,
